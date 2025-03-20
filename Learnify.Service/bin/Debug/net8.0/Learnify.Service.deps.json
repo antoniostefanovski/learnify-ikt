@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Learnify.Service/1.0.0": {
+        "dependencies": {
+          "Learnify.Domain": "1.0.0",
+          "Learnify.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Learnify.Service.dll": {}
+        }
+      },
+      "Learnify.Domain/1.0.0": {
+        "runtime": {
+          "Learnify.Domain.dll": {}
+        }
+      },
+      "Learnify.Repository/1.0.0": {
+        "dependencies": {
+          "Learnify.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Learnify.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Learnify.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Learnify.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Learnify.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

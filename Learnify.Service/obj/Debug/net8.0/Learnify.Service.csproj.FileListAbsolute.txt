@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Service.deps.json
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Service.dll
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Service.pdb
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Domain.dll
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Repository.dll
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Domain.pdb
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\bin\Debug\net8.0\Learnify.Repository.pdb
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.csproj.CopyComplete
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.dll
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\refint\Learnify.Service.dll
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\Learnify.Service.pdb
+C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Service\obj\Debug\net8.0\ref\Learnify.Service.dll
