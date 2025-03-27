@@ -2,7 +2,7 @@
 
 ## Before working on your issue
 
-### Clone the project locally in a folder
+### Clone the project locally in a folder / If you have done that, then enter the folder project and type git fetch and after that git pull and start working (via Git Bash or via Sourcetree wizard) 
 
 ### Create a branch using git branch branchname (App: Git Bash) or via interface (App: Sourcetree)
 
