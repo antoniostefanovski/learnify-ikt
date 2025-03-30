@@ -2,7 +2,7 @@
 
 namespace Learnify.Repository.Interfaces
 {
-    public interface IAnswerRepository
+    public interface IAnswerRepository : IRepository<Answer>
     {
         IQueryable<Answer> GetAnswersAsync(Guid questionId);
     }
