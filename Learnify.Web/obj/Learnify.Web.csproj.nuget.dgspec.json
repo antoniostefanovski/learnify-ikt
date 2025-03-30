@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Web\\Learnify.Web.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\Learnify.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj",
         "projectName": "Learnify.Domain",
-        "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj",
         "projectName": "Learnify.Repository",
-        "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,14 +83,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj"
+              "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj"
               }
             }
           }
@@ -101,150 +100,203 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Service\\Learnify.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Service\\Learnify.Service.csproj",
-        "projectName": "Learnify.Service",
-        "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Service\\Learnify.Service.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
         },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj"
-              },
-              "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Web\\Learnify.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Web\\Learnify.Web.csproj",
-        "projectName": "Learnify.Web",
-        "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Web\\Learnify.Web.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Web\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Domain\\Learnify.Domain.csproj"
-              },
-              "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Repository\\Learnify.Repository.csproj"
-              },
-              "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Service\\Learnify.Service.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VSCode Workflow\\Learnify\\Learnify.Service\\Learnify.Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj",
+        "projectName": "Learnify.Service",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\Learnify.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\Learnify.Web.csproj",
+        "projectName": "Learnify.Web",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\Learnify.Web.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -266,7 +318,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
