@@ -9,26 +9,24 @@ namespace Learnify.Service.Implementation
 {
     public class AnswerService : IAnswerService
     {
-        private readonly IRepository<Answer> answerRepository;
         private readonly IAnswerRepository repository;
 
-        public AnswerService(IRepository<Answer> answerRepository, IAnswerRepository repository)
+        public AnswerService(IAnswerRepository repository)
         {
-            this.answerRepository = answerRepository;
             this.repository = repository;
         }
 
         public Task DeleteAnswer(Guid answerId)
         {
-            var answer = answerRepository.Get(answerId);
-            answerRepository.Delete(answer);
+            var answer = repository.Get(answerId);
+            repository.Delete(answer);
 
             return Task.CompletedTask;
         }
 
         public Answer GetAnswer(Guid answerId)
         {
-            var answer = answerRepository.Get(answerId);
+            var answer = repository.Get(answerId);
 
             return answer;
         }
@@ -44,7 +42,7 @@ namespace Learnify.Service.Implementation
         {
             var answer = AnswerMapper.CopyFromDto(answerRequest);
 
-            answerRepository.Insert(answer);
+            repository.Insert(answer);
 
             return Task.CompletedTask;
         }
@@ -53,7 +51,7 @@ namespace Learnify.Service.Implementation
         {
             var answer = AnswerMapper.CopyFromUpdateDto(updateAnswer);
 
-            answerRepository.Update(answer);
+            repository.Update(answer);
 
             return Task.CompletedTask;
         }
