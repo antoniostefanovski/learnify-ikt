@@ -2,6 +2,7 @@
 using Learnify.Repository;
 using Learnify.Repository.Implementation;
 using Learnify.Repository.Interfaces;
+using Learnify.Web.Infrastructure.Startup;
 using Microsoft.EntityFrameworkCore;
 
 namespace Learnify.Web
@@ -22,23 +23,19 @@ namespace Learnify.Web
             builder.Services.AddDbContext<LearnifyDbContext>(options =>
             {  options.UseSqlServer(connectionString);
                 options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-            });    
-            
+            });
 
-            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 
-            // Add services to the container.
+            builder.Services.ConfigureRepositories();
+            builder.Services.ConfigureServices();
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+           
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
