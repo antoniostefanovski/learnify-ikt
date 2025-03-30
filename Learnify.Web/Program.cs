@@ -1,4 +1,9 @@
 
+using Learnify.Repository;
+using Learnify.Repository.Implementation;
+using Learnify.Repository.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 namespace Learnify.Web
 {
     public class Program
@@ -6,6 +11,23 @@ namespace Learnify.Web
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+
+            var connectionString =
+                builder.Configuration.GetConnectionString("LearnifyDbConnection")
+                ?? throw new InvalidOperationException("Connection string"
+                + "'LearnifyDbConnection' not found.");
+
+
+            builder.Services.AddDbContext<LearnifyDbContext>(options =>
+            {  options.UseSqlServer(connectionString);
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+            });    
+            
+
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 
             // Add services to the container.
 

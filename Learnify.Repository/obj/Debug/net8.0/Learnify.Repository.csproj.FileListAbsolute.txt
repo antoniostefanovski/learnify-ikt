@@ -13,3 +13,21 @@ C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Repository\obj\Debug\net
 C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Repository\obj\Debug\net8.0\refint\Learnify.Repository.dll
 C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.pdb
 C:\Users\User\Desktop\VSCode Workflow\Learnify\Learnify.Repository\obj\Debug\net8.0\ref\Learnify.Repository.dll
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.deps.json
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.runtimeconfig.json
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.dll
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.pdb
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Domain.dll
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Domain.pdb
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.sourcelink.json
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.FBDFC034.Up2Date
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.dll
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\refint\Learnify.Repository.dll
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.pdb
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\FAKULTET\8 SEMESTAR\UPRAVUVANJE SO IKT PROEKTI\IKT PROEKT\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\ref\Learnify.Repository.dll
