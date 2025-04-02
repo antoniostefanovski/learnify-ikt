@@ -3,96 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\migrations\\learnifydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\migrations\\learnifydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\implementation\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\migrations\\20250330094154_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\migrations\\20250330094154_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\implementation\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\learnifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\learnifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\mappers\\lessonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\mappers\\lessonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\implementation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\implementation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|solutionrelative:learnify.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|solutionrelative:learnify.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.repository\\learnify.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\learnify.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|solutionrelative:learnify.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\mappers\\modulemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\mappers\\modulemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,305 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LearnifyDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Migrations\\LearnifyDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Migrations\\LearnifyDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Migrations\\LearnifyDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Learnify.Repository\\Migrations\\LearnifyDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:44:06.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250330094154_initialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Migrations\\20250330094154_initialMigration.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Migrations\\20250330094154_initialMigration.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Migrations\\20250330094154_initialMigration.cs",
-              "RelativeToolTip": "Learnify.Repository\\Migrations\\20250330094154_initialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ModuleService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\ModuleService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\ModuleService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\ModuleService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\ModuleService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:41:54.928Z",
+              "WhenOpened": "2025-04-02T15:30:22.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Class1.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Class1.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Class1.cs",
-              "RelativeToolTip": "Learnify.Repository\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\LessonService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\LessonService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\LessonService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\LessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:28:32.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Quiz.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Quiz.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\Quiz.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Quiz.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\Quiz.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T22:32:30.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Learnify.Web\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\appsettings.Development.json",
-              "RelativeToolTip": "Learnify.Web\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-29T21:59:39.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Implementation\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Implementation\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Implementation\\AuthRepository.cs",
-              "RelativeToolTip": "Learnify.Repository\\Implementation\\AuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T21:13:05.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Interfaces\\IAuthRepository.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Interfaces\\IAuthRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Interfaces\\IAuthRepository.cs",
-              "RelativeToolTip": "Learnify.Repository\\Interfaces\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T21:11:44.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "File.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\File.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\File.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\File.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\File.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:59:58.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Implementation\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Implementation\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Implementation\\UserRepository.cs",
-              "RelativeToolTip": "Learnify.Repository\\Implementation\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:47:51.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:46:25.081Z",
+              "WhenOpened": "2025-04-02T15:30:21.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Learnify.Repository\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "ModuleMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\ModuleMapper.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Mappers\\ModuleMapper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\ModuleMapper.cs",
+              "RelativeToolTip": "Learnify.Service\\Mappers\\ModuleMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:45:07.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Learnify.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\appsettings.json",
-              "RelativeToolTip": "Learnify.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-29T20:39:07.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Learnify.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Web\\Program.cs",
-              "RelativeToolTip": "Learnify.Web\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:32:01.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Certificate.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Certificate.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\Certificate.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Certificate.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\Certificate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:19:46.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Answer.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Answer.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\Answer.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Answer.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\Answer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:18:51.642Z",
+              "WhenOpened": "2025-04-02T15:28:35.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LearnifyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\LearnifyDbContext.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\LearnifyDbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\LearnifyDbContext.cs",
-              "RelativeToolTip": "Learnify.Repository\\LearnifyDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Title": "LessonMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\LessonMapper.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Mappers\\LessonMapper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\LessonMapper.cs",
+              "RelativeToolTip": "Learnify.Service\\Mappers\\LessonMapper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:50:14.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Implementation\\Repository.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Implementation\\Repository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Implementation\\Repository.cs",
-              "RelativeToolTip": "Learnify.Repository\\Implementation\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:46:54.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:40:55.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Learnify.Repository\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:35:26.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Learnify.Repository.csproj",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj",
-              "RelativeDocumentMoniker": "Learnify.Repository\\Learnify.Repository.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj",
-              "RelativeToolTip": "Learnify.Repository\\Learnify.Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-29T19:33:42.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Enums\\UserRole.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Enums\\UserRole.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Enums\\UserRole.cs",
-              "RelativeToolTip": "Learnify.Domain\\Enums\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:21:28.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "QuestionType.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Enums\\QuestionType.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Enums\\QuestionType.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Enums\\QuestionType.cs",
-              "RelativeToolTip": "Learnify.Domain\\Enums\\QuestionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:21:23.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\Course.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Entities\\Course.cs",
-              "RelativeToolTip": "Learnify.Domain\\Entities\\Course.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:21:10.796Z",
+              "WhenOpened": "2025-04-02T15:28:30.068Z",
               "EditorCaption": ""
             }
           ]
