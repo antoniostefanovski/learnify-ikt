@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Learnify.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f1a02299c65072b37d3934e174971df6f442adf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Learnify.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Learnify.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
