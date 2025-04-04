@@ -691,10 +691,7 @@
       },
       "Learnify.Domain/1.0.0": {
         "runtime": {
-          "Learnify.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Learnify.Domain.dll": {}
         }
       },
       "Learnify.Repository/1.0.0": {
@@ -707,10 +704,7 @@
           "Microsoft.Extensions.Configuration.Json": "9.0.3"
         },
         "runtime": {
-          "Learnify.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Learnify.Repository.dll": {}
         }
       }
     }

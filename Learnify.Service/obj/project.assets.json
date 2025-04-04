@@ -3139,19 +3139,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\Stefani Eftimovska\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj",
       "projectName": "Learnify.Service",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\obj\\",
+      "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Service\\Learnify.Service.csproj",
+      "packagesPath": "C:\\Users\\Stefani Eftimovska\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stefani Eftimovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3159,18 +3159,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj"
+            "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj": {
+              "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Domain\\Learnify.Domain.csproj"
             },
-            "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj"
+            "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj": {
+              "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\learnify-ikt\\Learnify.Repository\\Learnify.Repository.csproj"
             }
           }
         }
@@ -3179,11 +3178,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3205,7 +3199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

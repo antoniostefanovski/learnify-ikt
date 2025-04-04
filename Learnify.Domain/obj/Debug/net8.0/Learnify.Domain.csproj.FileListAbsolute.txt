@@ -33,3 +33,15 @@ C:\Users\User\Desktop\VSCode Workflow\Learnify-GIT\Learnify.Domain\obj\Debug\net
 C:\Users\User\Desktop\VSCode Workflow\Learnify-GIT\Learnify.Domain\obj\Debug\net8.0\refint\Learnify.Domain.dll
 C:\Users\User\Desktop\VSCode Workflow\Learnify-GIT\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.pdb
 C:\Users\User\Desktop\VSCode Workflow\Learnify-GIT\Learnify.Domain\obj\Debug\net8.0\ref\Learnify.Domain.dll
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\bin\Debug\net8.0\Learnify.Domain.deps.json
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\bin\Debug\net8.0\Learnify.Domain.dll
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\bin\Debug\net8.0\Learnify.Domain.pdb
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.AssemblyInfoInputs.cache
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.AssemblyInfo.cs
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.sourcelink.json
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.dll
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\refint\Learnify.Domain.dll
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\Learnify.Domain.pdb
+C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Domain\obj\Debug\net8.0\ref\Learnify.Domain.dll
