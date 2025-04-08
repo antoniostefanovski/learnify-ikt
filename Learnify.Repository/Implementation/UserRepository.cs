@@ -1,5 +1,6 @@
 ﻿using Learnify.Domain.Entities;
 using Learnify.Repository.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,11 @@ namespace Learnify.Repository.Implementation
         public User GetUserByEmail(string email)
         {
             return dbContext.Users.FirstOrDefault(x => x.Email == email);
+        }
+        public async Task AddAsync(User user)
+        {
+            await dbContext.Users.AddAsync(user);
+            await dbContext.SaveChangesAsync();
         }
     }
 }
