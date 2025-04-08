@@ -1,22 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\implementation\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\implementation\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.web\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A7EEB7E-C56D-4C0E-A276-4126B5DC26F3}|Learnify.Web\\Learnify.Web.csproj|solutionrelative:learnify.web\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.repository\\learnifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\learnifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\implementation\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\implementation\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\ileaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\ileaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.domain\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.domain\\dto\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\dto\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.domain\\dto\\filerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\dto\\filerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\implementation\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\implementation\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\mappers\\lessonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\mappers\\lessonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\mappers\\lessonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\administrator\\desktop\\fakultet\\8 semestar\\upravuvanje so ikt proekti\\ikt proekt\\learnify-ikt\\learnify.service\\mappers\\modulemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\mappers\\modulemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\mappers\\modulemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE46BA7-DC4D-426A-82BD-7DAB7C796C47}|Learnify.Domain\\Learnify.Domain.csproj|solutionrelative:learnify.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\ienrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\ienrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\interfaces\\ianswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\interfaces\\ianswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.repository\\implementation\\answerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13CED43-DB6B-4D95-B8F4-72C28FDE4B83}|Learnify.Repository\\Learnify.Repository.csproj|solutionrelative:learnify.repository\\implementation\\answerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\mappers\\answermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\mappers\\answermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|c:\\users\\user\\desktop\\ikt-proekt\\learnify-ikt\\learnify.service\\implementation\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF294B-136A-4F58-852E-E65DD893DE05}|Learnify.Service\\Learnify.Service.csproj|solutionrelative:learnify.service\\implementation\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +114,364 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Learnify.Repository\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Learnify.Repository\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:11:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Mappers\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "Learnify.Service\\Mappers\\UserMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:38:08.017Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModuleService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\ModuleService.cs",
-              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\ModuleService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\ModuleService.cs",
-              "RelativeToolTip": "Learnify.Service\\Implementation\\ModuleService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:30:22.15Z",
+              "WhenOpened": "2025-04-08T13:39:16.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LessonService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\LessonService.cs",
-              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\LessonService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Implementation\\LessonService.cs",
-              "RelativeToolTip": "Learnify.Service\\Implementation\\LessonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Title": "UserAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\UserAuthService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\UserAuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\UserAuthService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\UserAuthService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:30:21.469Z",
+              "WhenOpened": "2025-04-08T13:48:36.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Learnify.Repository\\Implementation\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "Learnify.Repository\\Implementation\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:17:13.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Web\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Learnify.Web\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Web\\WeatherForecast.cs",
+              "RelativeToolTip": "Learnify.Web\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:00:32.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnswerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\AnswerService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\AnswerService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\AnswerService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\AnswerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:44:41.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeaderboardService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\LeaderboardService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\LeaderboardService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\LeaderboardService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\LeaderboardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:43:10.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LearnifyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\LearnifyDbContext.cs",
+              "RelativeDocumentMoniker": "Learnify.Repository\\LearnifyDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\LearnifyDbContext.cs",
+              "RelativeToolTip": "Learnify.Repository\\LearnifyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:41:12.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IModuleService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IModuleService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\IModuleService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IModuleService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\IModuleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:42:47.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IFileService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\IFileService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IFileService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\IFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:42:45.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ILeaderboardService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\ILeaderboardService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\ILeaderboardService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\ILeaderboardService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\ILeaderboardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:42:20.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\DTO\\LoginUserDTO.cs",
+              "RelativeDocumentMoniker": "Learnify.Domain\\DTO\\LoginUserDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\DTO\\LoginUserDTO.cs",
+              "RelativeToolTip": "Learnify.Domain\\DTO\\LoginUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:27:26.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FileRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\DTO\\FileRequest.cs",
+              "RelativeDocumentMoniker": "Learnify.Domain\\DTO\\FileRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\DTO\\FileRequest.cs",
+              "RelativeToolTip": "Learnify.Domain\\DTO\\FileRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:22:36.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\DTO\\RegisterUserDTO.cs",
+              "RelativeDocumentMoniker": "Learnify.Domain\\DTO\\RegisterUserDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\DTO\\RegisterUserDTO.cs",
+              "RelativeToolTip": "Learnify.Domain\\DTO\\RegisterUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:22:27.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Learnify.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:17:17.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ILessonService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\ILessonService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\ILessonService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\ILessonService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\ILessonService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:20:23.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ModuleMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\ModuleMapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\ModuleMapper.cs",
               "RelativeDocumentMoniker": "Learnify.Service\\Mappers\\ModuleMapper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\ModuleMapper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\ModuleMapper.cs",
               "RelativeToolTip": "Learnify.Service\\Mappers\\ModuleMapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:28:35.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\LessonService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\LessonService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\LessonService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\LessonService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:30:21.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Learnify.Domain\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Domain\\Entities\\Review.cs",
+              "RelativeToolTip": "Learnify.Domain\\Entities\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:17:33.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "LessonMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\LessonMapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\LessonMapper.cs",
               "RelativeDocumentMoniker": "Learnify.Service\\Mappers\\LessonMapper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FAKULTET\\8 SEMESTAR\\UPRAVUVANJE SO IKT PROEKTI\\IKT PROEKT\\learnify-ikt\\Learnify.Service\\Mappers\\LessonMapper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\LessonMapper.cs",
               "RelativeToolTip": "Learnify.Service\\Mappers\\LessonMapper.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:28:30.068Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEnrollmentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IEnrollmentService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\IEnrollmentService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IEnrollmentService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\IEnrollmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:17:04.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AnswerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\Implementation\\AnswerRepository.cs",
+              "RelativeDocumentMoniker": "Learnify.Repository\\Implementation\\AnswerRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Repository\\Implementation\\AnswerRepository.cs",
+              "RelativeToolTip": "Learnify.Repository\\Implementation\\AnswerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:16:40.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAnswerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IAnswerService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Interfaces\\IAnswerService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Interfaces\\IAnswerService.cs",
+              "RelativeToolTip": "Learnify.Service\\Interfaces\\IAnswerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:15:31.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AnswerMapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\AnswerMapper.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Mappers\\AnswerMapper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Mappers\\AnswerMapper.cs",
+              "RelativeToolTip": "Learnify.Service\\Mappers\\AnswerMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:15:21.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModuleService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\ModuleService.cs",
+              "RelativeDocumentMoniker": "Learnify.Service\\Implementation\\ModuleService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IKT-proekt\\learnify-ikt\\Learnify.Service\\Implementation\\ModuleService.cs",
+              "RelativeToolTip": "Learnify.Service\\Implementation\\ModuleService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:30:22.15Z"
             }
           ]
         }
