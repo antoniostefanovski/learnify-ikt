@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "Cm1MpNRRb7IhhODqoqv8E3pTe8Tjdd+26CS1KBp6nvs=",
+  "Hash": "9xvXOJ2FeZmUX0IKtwgtBSOSsWbfFdyRXPagUhGCmLU=",
   "Source": "Learnify.Web",
   "BasePath": "_content/Learnify.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
