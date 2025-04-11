@@ -67,3 +67,21 @@ C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Repository\obj\De
 C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.pdb
 C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.genruntimeconfig.cache
 C:\Users\Stefani Eftimovska\source\repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\ref\Learnify.Repository.dll
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.deps.json
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.runtimeconfig.json
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.dll
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Repository.pdb
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Domain.dll
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\bin\Debug\net8.0\Learnify.Domain.pdb
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.csproj.AssemblyReference.cache
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.AssemblyInfoInputs.cache
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.AssemblyInfo.cs
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.sourcelink.json
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.FBDFC034.Up2Date
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.dll
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\refint\Learnify.Repository.dll
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.pdb
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\Learnify.Repository.genruntimeconfig.cache
+C:\Users\Filip\Source\Repos\learnify-ikt\Learnify.Repository\obj\Debug\net8.0\ref\Learnify.Repository.dll
