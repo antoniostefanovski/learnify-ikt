@@ -13,6 +13,7 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<IModuleService, ModuleService>();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<ILessonService, LessonService>();
+            services.AddScoped<IReviewService, ReviewService>();
 
             return services;
         }
