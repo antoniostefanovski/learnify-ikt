@@ -692,7 +692,7 @@
       "Learnify.Domain/1.0.0": {
         "runtime": {
           "Learnify.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -708,7 +708,7 @@
         },
         "runtime": {
           "Learnify.Repository.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

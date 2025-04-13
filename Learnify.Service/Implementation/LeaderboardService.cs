@@ -16,11 +16,13 @@ namespace Learnify.Service.Implementation
 
         public async Task<List<Leaderboard>> GetLeaderboard()
         {
-            var leaderboard = await leaderboardRepository.GetAll().ToListAsync();
+            var leaderboard = await leaderboardRepository
+                .GetAll()
+                .Include(x => x.Student)
+                .ToListAsync();
 
-            leaderboard.OrderByDescending(x => x.Points);
 
-            return leaderboard;
+            return leaderboard.OrderByDescending(x => x.Points).ToList();
         }
 
 
