@@ -14,7 +14,7 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<ILessonService, LessonService>();
             services.AddScoped<IReviewService, ReviewService>();
-
+            services.AddScoped<ICertificateService, CertificateService>();
             return services;
         }
     }
