@@ -1,4 +1,5 @@
 
+using Learnify.Domain.Validators;
 using Learnify.Repository;
 using Learnify.Repository.Implementation;
 using Learnify.Repository.Interfaces;
@@ -28,9 +29,11 @@ namespace Learnify.Web
 
             builder.Services.ConfigureRepositories();
             builder.Services.ConfigureServices();
+            builder.Services.ConfigureValidators();
 
             builder.Services.AddControllers();
-           
+            
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
