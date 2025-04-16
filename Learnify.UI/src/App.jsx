@@ -4,11 +4,9 @@ import "./index.css"; // Tailwind стилови
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginPage from "./components/LoginPage";     // Login страница (фиктивна)
 import RegisterPage from "./components/RegisterPage"; // Register страница (фиктивна)
-
-import CourseLayout from "./views/CourseLayout";
-import CourseDescriptionView from "./views/CourseDescriptionView";
-import CourseMaterialsView from "./views/CourseMaterialsView";
-import CourseReviewsView from "./views/CourseReviewsView";
+import CoursePage, {Description,Materials,Reviews } from "./components/CoursePage";
+import CoursesPage from "./components/CorsesPage.jsx";
+import QuizPage from "./components/QuizPage.jsx"; // Course page (hardcoded)
 
 function App() {
     return (
@@ -17,14 +15,14 @@ function App() {
                 <Route path="/" element={<WelcomePage />} /> {/* Главната страница */}
                 <Route path="/login" element={<LoginPage />} /> {/* Login страница */}
                 <Route path="/register" element={<RegisterPage />} /> {/* Register страница */}
-
-                <Route path="/course" element={<CourseLayout />}>
-                    <Route index element={<CourseDescriptionView />} />
-                    <Route path="description" element={<CourseDescriptionView />} />
-                    <Route path="materials" element={<CourseMaterialsView />} />
-                    <Route path="reviews" element={<CourseReviewsView />} />
+                <Route path="/courses" element={<CoursesPage />} />
+                <Route path="/course/:id" element={<CoursePage />}>
+                    <Route index element={<Description />} />
+                    <Route path="description" element={<Description />} />
+                    <Route path="materials" element={<Materials />} />
+                    <Route path="reviews" element={<Reviews />} />
                 </Route>
-
+                <Route path="/course/:id/quiz" element={<QuizPage />} />
             </Routes>
         </Router>
     );
