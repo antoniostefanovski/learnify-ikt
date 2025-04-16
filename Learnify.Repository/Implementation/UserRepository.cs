@@ -20,5 +20,11 @@ namespace Learnify.Repository.Implementation
         {
             return dbContext.Users.FirstOrDefault(x => x.Email == email);
         }
+        public async Task<User> AddAsync(User user)
+        {
+            await dbContext.Users.AddAsync(user);
+            await dbContext.SaveChangesAsync();
+            return user;
+        }
     }
 }
