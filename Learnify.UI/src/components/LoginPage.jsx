@@ -2,39 +2,50 @@ import React from "react";
 
 function LoginPage() {
     return (
-        <div className="h-screen bg-gray-100 flex justify-center items-center">
-            {}
-            <div className="w-full max-w-4xl lg:max-w-5xl xl:max-w-6xl bg-white p-8 rounded-lg shadow-lg">
-                <h2 className="text-3xl font-bold text-center mb-6">Login-Probna samo!!</h2>
-                <p className="text-center mb-8 text-lg text-gray-600">Добредојдовте назад! Ве молиме, најавете се.</p>
+        <div className="h-screen flex">
+            {/* Left Section */}
+            <div className="w-1/2 bg-white flex flex-col justify-center items-center p-10">
+                <div className="mb-6 flex items-center">
+                    <img src="src/assets/Logo.png" alt="Learnify Logo" className="h-10 w-10 mr-2" />
+                    <h1 className="text-3xl font-bold text-blue-700">Learnify</h1>
+                </div>
+                <p className="text-xl italic text-blue-700 text-center max-w-sm">
+                    Welcome back, future genius! Let’s pick up where you left off.
+                </p>
+                <img
+                    src="src/assets/Chechlist_image.png"
+                    alt="Checklist illustration"
+                    className="mt-10 w-3/4 max-w-md"
+                />
+            </div>
 
-
+            {/* Right Section */}
+            <div className="w-1/2 bg-white flex flex-col justify-center px-20">
+                <h2 className="text-4xl font-bold text-blue-700 mb-6">Log in and level up!</h2>
                 <form className="space-y-6">
                     <div className="flex flex-col">
-                        <label className="text-sm font-medium text-gray-600" htmlFor="email">Email:</label>
+                        <label htmlFor="email" className="text-blue-700 font-medium mb-1">Email:</label>
                         <input
                             type="email"
                             id="email"
-                            className="mt-2 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                            placeholder="Внесете емаил"
+                            placeholder="Enter your email"
+                            className="px-4 py-2 rounded-lg bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             required
                         />
                     </div>
-
                     <div className="flex flex-col">
-                        <label className="text-sm font-medium text-gray-600" htmlFor="password">Password:</label>
+                        <label htmlFor="password" className="text-blue-700 font-medium mb-1">Password:</label>
                         <input
                             type="password"
                             id="password"
-                            className="mt-2 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                            placeholder="Внесете лозинка"
+                            placeholder="Enter your password"
+                            className="px-4 py-2 rounded-lg bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             required
                         />
                     </div>
-
                     <button
                         type="submit"
-                        className="w-full py-3 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition"
+                        className="mt-4 bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 transition"
                     >
                         Login
                     </button>
