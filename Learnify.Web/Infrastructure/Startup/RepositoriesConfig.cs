@@ -16,6 +16,8 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<ILessonRepository, LessonRepository>();
             services.AddScoped<IReviewRepository, ReviewRepository>();
             services.AddScoped<ICertificateRepository, CertificateRepository>();
+            services.AddScoped<IQuestionRepository, QuestionRepository>();
+            services.AddScoped<IQuizRepository, QuizRepository>();
 
             return services;
         }
