@@ -1,4 +1,6 @@
-﻿using Learnify.Service.Implementation;
+﻿using Learnify.Repository.Implementation;
+using Learnify.Repository.Interfaces;
+using Learnify.Service.Implementation;
 using Learnify.Service.Interfaces;
 
 namespace Learnify.Web.Infrastructure.Startup
@@ -15,6 +17,8 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<ILessonService, LessonService>();
             services.AddScoped<IReviewService, ReviewService>();
             services.AddScoped<ICertificateService, CertificateService>();
+            services.AddScoped<IQuestionService, QuestionService>();
+            services.AddScoped<IQuizService, QuizService>();
             return services;
         }
     }
