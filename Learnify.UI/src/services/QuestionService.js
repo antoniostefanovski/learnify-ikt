@@ -1,6 +1,6 @@
-const endpoint = '/quizzes'
+const endpoint = '/questions';
 
-export const getAllQuizzes = async () => {
+export const getAllQuestions = async () => {
     try {
         const response = await axios_config.get(endpoint);
 
@@ -12,9 +12,9 @@ export const getAllQuizzes = async () => {
     }
 };
 
-export const getQuizById = async (quizId) => {
+export const getQuestionById = async (questionId) => {
     try {
-        const response = await axios_config.get(`${endpoint}/${quizId}`);
+        const response = await axios_config.get(`${endpoint}/${questionId}`);
 
         return response.status === 200 ? response.data : null;
     } catch (err) {
@@ -24,9 +24,9 @@ export const getQuizById = async (quizId) => {
     }
 };
 
-export const getQuizWithQuestions = async (quizId) => {
+export const getQuestionWithAnswers = async (questionId) => {
     try {
-        const response = await axios_config.get(`${endpoint}/${quizId}/questions`);
+        const response = await axios_config.get(`${endpoint}/${questionId}/answers`);
 
         return response.status === 200 ? response.data : null;
     } catch (err) {
@@ -36,9 +36,9 @@ export const getQuizWithQuestions = async (quizId) => {
     }
 };
 
-export const getQuizzesByCourse = async (courseId) => {
+export const getQuestionsByQuiz = async (quizId) => {
     try {
-        const response = await axios_config.get(`${endpoint}/course/${courseId}`);
+        const response = await axios_config.get(`${endpoint}/quiz/${quizId}`);
 
         return response.status === 200 ? response.data : [];
     } catch (err) {
@@ -48,10 +48,22 @@ export const getQuizzesByCourse = async (courseId) => {
     }
 };
 
-export const insertQuiz = async (quizRequest) => {
+export const getQuestionsWithAnswersByQuiz = async (quizId) => {
     try {
-        const response = await axios_config.post(endpoint, quizRequest);
+        const response = await axios_config.get(`${endpoint}/quiz/${quizId}/withanswers`);
+       
+        return response.status === 200 ? response.data : [];
+    } catch (err) {
+        console.error(`Error during the request: ${err.response}`);
 
+        throw err;
+    }
+};
+
+export const insertQuestion = async (questionRequest) => {
+    try {
+        const response = await axios_config.post(endpoint, questionRequest);
+       
         return response.status === 200;
     } catch (err) {
         console.error(`Error during the request: ${err.response}`);
@@ -60,10 +72,10 @@ export const insertQuiz = async (quizRequest) => {
     }
 };
 
-export const updateQuiz = async (updateQuiz) => {
+export const updateQuestion = async (updateQuestion) => {
     try {
-        const response = await axios_config.put(endpoint, updateQuiz);
-
+        const response = await axios_config.put(endpoint, updateQuestion);
+        
         return response.status === 200;
     } catch (err) {
         console.error(`Error during the request: ${err.response}`);
@@ -72,10 +84,10 @@ export const updateQuiz = async (updateQuiz) => {
     }
 };
 
-export const deleteQuiz = async (quizId) => {
+export const deleteQuestion = async (questionId) => {
     try {
-        const response = await axios_config.delete(`${endpoint}/${quizId}`);
-
+        const response = await axios_config.delete(`${endpoint}/${questionId}`);
+        
         return response.status === 200;
     } catch (err) {
         console.error(`Error during the request: ${err.response}`);
