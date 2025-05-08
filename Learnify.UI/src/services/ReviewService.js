@@ -1,6 +1,8 @@
+import { axios_config } from '../axios/axios_config';
+
 const endpoint = '/reviews';
 
-export const getReviews = async (courseId) => {
+export const getReviewsByCourseId = async (courseId) => {
     try {
         const response = await axios_config.get(`${endpoint}/course/${courseId}`);
         
