@@ -1,3 +1,5 @@
+import { axios_config } from '../axios/axios_config';
+
 const endpoint = '/modules';
 
 export const insertModule = async (insertModule) => {
@@ -24,7 +26,7 @@ export const getModuleById = async (moduleId) => {
     }
 };
 
-export const getAllModules = async (courseId) => {
+export const getAllCourseModules = async (courseId) => {
     try {
         const response = await axios_config.get(`${endpoint}/${courseId}`);
 

@@ -1,0 +1,132 @@
+{
+  "courses": {
+    "1": {
+      "id": "1",
+      "title": "Data Science",
+      "description": "Data science courses teach an interdisciplinary field focused on extracting knowledge and insights from data. Learn data manipulation, statistical analysis and machine learning to unlock insights and enhance decision-making and predictive abilities applicable to various fields.",
+      "category": "datascience",
+      "materials": [
+        { "name": "Book1.pdf", "id": "m1", "url": "#" },
+        { "name": "Presentatnion1.pptx", "id": "m2", "url": "#" }
+      ],
+      "image": "/courses.png"
+    },
+    "2": {
+      "id": "2",
+      "title": "Operating Systems",
+      "description": "Learn the basic operating system abstraction, mechanisms and their implementations. This course covers process management, memory management, file systems, and more.",
+      "category": "programming",
+      "materials": [
+        { "name": "OS_Textbook.pdf", "id": "m3", "url": "#" },
+        { "name": "Lab_Instructions.docx", "id": "m4", "url": "#" }
+      ],
+      "image": "/courses.png"
+    },
+    "3": {
+      "id": "3",
+      "title": "Web Development",
+      "description": "Learn to build modern web applications using HTML, CSS, JavaScript, and popular frameworks. This course covers frontend and backend development principles and practices.",
+      "category": "programming",
+      "materials": [
+        { "name": "HTML_CSS_Basics.pdf", "id": "m5", "url": "#" },
+        { "name": "JavaScript_Examples.zip", "id": "m6", "url": "#" }
+      ],
+      "image": "/courses.png"
+    }
+  },
+  "leaderboard": [
+    { "id": 1, "name": "John Smith", "coursesFinished": 9, "rank": 1 },
+    { "id": 2, "name": "Sarah Johnson", "coursesFinished": 7, "rank": 2 },
+    { "id": 3, "name": "Michael Brown", "coursesFinished": 6, "rank": 3 },
+    { "id": 4, "name": "Emily Davis", "coursesFinished": 4, "rank": 4 },
+    { "id": 5, "name": "David Wilson", "coursesFinished": 3, "rank": 5 },
+    { "id": 6, "name": "Jessica Taylor", "coursesFinished": 2, "rank": 6 }
+  ],
+  "users": [
+    { "id": 1, "username": "admin", "email": "admin@learnify.com", "role": "admin", "name": "Admin User" },
+    { "id": 2, "username": "john", "email": "john@example.com", "role": "student", "name": "John Smith" },
+    { "id": 3, "username": "sarah", "email": "sarah@example.com", "role": "student", "name": "Sarah Johnson" }
+  ],
+  "categories": [
+    { "id": "programming", "name": "Programming" },
+    { "id": "datascience", "name": "Data Science" },
+    { "id": "design", "name": "Design" },
+    { "id": "business", "name": "Business" },
+    { "id": "marketing", "name": "Marketing" }
+  ],
+  "quizzes": {
+    "1": {
+      "id": "1",
+      "courseId": "1",
+      "title": "Data Science Fundamentals Quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What is the primary purpose of data cleaning?",
+          "options": [
+            "To make data look visually appealing",
+            "To remove or correct inaccurate records",
+            "To compress data for storage",
+            "To encrypt sensitive information"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "text": "Which of the following is NOT a common data visualization tool?",
+          "options": [
+            "Tableau",
+            "Power BI",
+            "MongoDB",
+            "D3.js"
+          ],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "courseId": "2",
+      "title": "Operating Systems Quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What is a process in operating systems?",
+          "options": [
+            "A program in execution",
+            "A system call",
+            "A thread",
+            "A CPU register"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q2",
+          "text": "Which scheduling algorithm prioritizes processes with the shortest estimated processing time?",
+          "options": [
+            "First-Come, First-Served (FCFS)",
+            "Round Robin",
+            "Shortest Job First (SJF)",
+            "Priority Scheduling"
+          ],
+          "correctAnswer": 2
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "1": [
+      { "id": "r1", "userId": 2, "username": "John Smith", "rating": 5, "comment": "Excellent course! I learned so much about data science fundamentals.", "date": "2023-09-15" },
+      { "id": "r2", "userId": 3, "username": "Sarah Johnson", "rating": 4, "comment": "Very informative, but some sections could use more examples.", "date": "2023-10-02" }
+    ],
+    "2": [
+      { "id": "r3", "userId": 2, "username": "John Smith", "rating": 4, "comment": "Great overview of operating systems concepts.", "date": "2023-08-22" }
+    ]
+  },
+  "enrollments": [
+    { "id": "e1", "userId": 2, "courseId": "1", "enrollmentDate": "2023-07-10", "completed": true, "progress": 100 },
+    { "id": "e2", "userId": 2, "courseId": "2", "enrollmentDate": "2023-08-05", "completed": true, "progress": 100 },
+    { "id": "e3", "userId": 3, "courseId": "1", "enrollmentDate": "2023-07-15", "completed": true, "progress": 100 },
+    { "id": "e4", "userId": 3, "courseId": "3", "enrollmentDate": "2023-09-20", "completed": false, "progress": 60 }
+  ]
+} 
