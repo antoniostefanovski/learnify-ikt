@@ -1,3 +1,5 @@
+import { axios_config } from '../axios/axios_config';
+
 const endpoint = '/questions';
 
 export const getAllQuestions = async () => {
