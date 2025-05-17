@@ -2,7 +2,7 @@ import axios from "axios";
 
 // API configuration
 const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_URL || "https://api.learnify.com",
+  BASE_URL: import.meta.env.VITE_API_URL || "http://localhost:5156/api",
   TIMEOUT: 3000,
   WITH_CREDENTIALS: true,
   SIMULATE_DELAY: false, // Set to true to simulate API delay even with real APIs

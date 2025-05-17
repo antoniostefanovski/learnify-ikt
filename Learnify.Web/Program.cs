@@ -40,8 +40,17 @@ namespace Learnify.Web
             builder.Services.ConfigureRepositories();
             builder.Services.ConfigureServices();
             builder.Services.ConfigureValidators();
+            builder.Services.ConfigureCors();
 
-            builder.Services.AddControllers();
+            builder.Services
+            .AddControllers()
+            .AddJsonOptions(options =>
+            {
+                // Use camelCase for property names
+                options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase;
+                // Make JSON more concise by omitting null values
+                options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+            });
 
 
             builder.Services.AddEndpointsApiExplorer();
@@ -77,7 +86,7 @@ namespace Learnify.Web
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowLocalhost5173");
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
