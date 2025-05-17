@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Logout, Dashboard, MenuBook } from '@mui/icons-material';
-//import logo from '../../public/logo3.png';
 
 export default function Sidebar() {
     const [menuItems] = useState([

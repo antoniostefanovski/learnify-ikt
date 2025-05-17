@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation, Outlet, useParams, useOutletContext } from "react-router-dom";
-import { Star, StarOff, Download } from "lucide-react"; // Icon for download button
+import { Star, StarOff, Download } from "lucide-react";
 import { getCourseById, getCourseReviews } from "../services/ApiService";
 
 export default function CoursePage() {
@@ -55,7 +55,6 @@ export default function CoursePage() {
 
     return (
         <div className="min-h-screen w-screen bg-gray-100 p-6 font-sans">
-            {/* Header */}
             <header className="flex items-center justify-between bg-white p-1 rounded-lg shadow-md">
                 <div className="flex items-center space-x-4">
                     <img src="/logo1.png" alt="Learnify Logo" className="max-w-sm max-h-sm" />
@@ -63,7 +62,6 @@ export default function CoursePage() {
                 <span className="text-gray-500 text-xl font-bold">Hello, User!</span>
             </header>
 
-            {/* Main Navigation */}
             <nav className="flex gap-6 mt-6">
                 <Link
                     to="/"
@@ -88,12 +86,10 @@ export default function CoursePage() {
                 </Link>
             </nav>
 
-            {/* Course Name */}
             <section className="mt-10">
                 <h1 className="text-4xl font-bold text-gray-800">{course.title}</h1>
             </section>
 
-            {/* Sub Navigation */}
             <nav className="flex gap-6 mt-4">
                 <Link
                     to="description"
@@ -118,7 +114,6 @@ export default function CoursePage() {
                 </Link>
             </nav>
 
-            {/* Page Content Wrapper */}
             <div className="mt-8 w-full bg-white p-6 rounded-xl shadow-md text-gray-700">
                 <Outlet context={{ course }} />
             </div>
@@ -154,19 +149,17 @@ export function Description() {
 
 export function Materials() {
     const { course } = useOutletContext();
-    const isAdmin = true; // Replace with actual logic for checking if the user is an admin
+    const isAdmin = true;
 
-    // Helper function to handle material URLs
     const getMaterialUrl = (url) => {
         if (url && (url.startsWith('http') || url.startsWith('/'))) {
             return url;
         }
-        return '#'; // Default URL if none provided
+        return '#';
     };
 
     return (
         <div className="mt-2 w-full">
-            {/* Add Material Button (Visible only for Admin) */}
             {isAdmin && (
                 <button
                     className="mt-0 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-md"
@@ -257,7 +250,16 @@ export function Reviews() {
 
     return (
         <div className="mt-2 w-full">
-            <h2 className="text-xl font-semibold mb-6">Student Reviews</h2>
+            <div className="flex justify-between items-center mb-6">
+                <h2 className="text-xl font-semibold">Student Reviews</h2>
+                <Link
+                    to={`/courses/${id}/add-review`}
+                    className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                >
+                    Add Review
+                </Link>
+            </div>
+
             {reviews.length > 0 ? (
                 <div className="flex flex-wrap gap-4">
                     {reviews.map((review) => (

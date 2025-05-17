@@ -8,7 +8,7 @@ import { getAllCourses } from '../services/CourseService';
 import { Link } from 'react-router-dom';
 
 function DashboardContent(props) {
-    const { } = props; // Currently no props needed, but following the pattern
+    const { } = props;
     const [courses, setCourses] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -69,8 +69,7 @@ function DashboardContent(props) {
                         ) : (
                             <p>No courses available.</p>
                         )}
-                        
-                        {/* Test courses for mock editing */}
+
                         <div className="mt-8 border-t pt-4">
                             <h3 className="text-lg font-semibold mb-4">Test Courses (Mock Data)</h3>
                             <div className="flex flex-col gap-4">
@@ -123,10 +122,8 @@ function DashboardContent(props) {
 }
 
 DashboardContent.propTypes = {
-    // Currently no props needed, but adding propTypes structure for consistency
 };
 
 export default function Dashboard() {
-    // No context or props to pass currently, but following the pattern
     return <DashboardContent />;
 }

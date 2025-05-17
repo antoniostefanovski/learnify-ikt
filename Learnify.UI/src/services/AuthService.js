@@ -43,8 +43,7 @@ export const getCurrentUser = async () => {
         if (userData) {
             return JSON.parse(userData);
         }
-        
-        // If not, get it from the API if we have a token
+
         const token = localStorage.getItem('token');
         if (token) {
             const response = await axios_config.get(`${endpoint}/me`);

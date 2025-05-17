@@ -16,14 +16,12 @@ export default function CourseLayout() {
             try {
                 setLoading(true);
                 setError(null);
-                
-                // Get the course information
+
                 if (id) {
                     const courseData = await getCourseById(id);
                     setCourse(courseData);
                 }
-                
-                // Get the current user information
+
                 const currentUser = await AuthService.getCurrentUser();
                 setUser(currentUser);
             } catch (error) {

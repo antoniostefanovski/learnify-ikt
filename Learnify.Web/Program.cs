@@ -33,10 +33,7 @@ namespace Learnify.Web
                 options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 
-            builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
-            //builder.Services.AddScoped<ICourseRepository, CourseRepository>();
-            //builder.Services.AddScoped<ICourseService, CourseService>();
-
+            builder.Services.ConfigureCors();
             builder.Services.ConfigureRepositories();
             builder.Services.ConfigureServices();
             builder.Services.ConfigureValidators();
@@ -73,10 +70,11 @@ namespace Learnify.Web
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+                 {
+                     app.UseSwagger();
+                     app.UseSwaggerUI();
+                     app.UseCors("AllowLocalhost5173");
+                 }
 
             app.UseHttpsRedirection();
             app.UseAuthentication();

@@ -1,5 +1,3 @@
-// Instead of importing from a JSON file, define the mock data directly in the code
-// This bypasses any issues with Vite's JSON import
 const mockData = {
   "courses": {
     "1": {
@@ -135,7 +133,6 @@ const mockData = {
 
 console.log('Using hardcoded mock data');
 
-// Simulate async API calls with setTimeout
 const simulateDelay = (data, delay = 300) => {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -144,12 +141,10 @@ const simulateDelay = (data, delay = 300) => {
   });
 };
 
-// Courses API
 export const getCourses = () => {
   console.log('MockDataService.getCourses called');
   
   try {
-    // Convert the courses object to an array
     const coursesArray = Object.keys(mockData.courses).map(key => ({
       ...mockData.courses[key]
     }));
@@ -174,8 +169,7 @@ export const createCourse = async (course) => {
     materials: [],
     image: course.courseImage ? URL.createObjectURL(course.courseImage) : '/courses.png'
   };
-  
-  // In a real app we'd save to the server, here we just simulate success
+
   return simulateDelay({ ...newCourse });
 };
 
@@ -183,21 +177,18 @@ export const updateCourse = async (id, course) => {
   if (!mockData.courses[id]) {
     throw new Error('Course not found');
   }
-  
-  // Update course in mock data (for a real implementation, we would persist this)
+
   const updatedCourse = {
     ...mockData.courses[id],
     title: course.courseName || mockData.courses[id].title,
     description: course.courseDescription || mockData.courses[id].description,
     category: course.category || mockData.courses[id].category,
   };
-  
-  // Handle image update if provided
+
   if (course.courseImage) {
     updatedCourse.image = URL.createObjectURL(course.courseImage);
   }
-  
-  // Handle materials update if provided
+
   if (course.materials && course.materials.length > 0) {
     const newMaterials = course.materials.map((material, index) => ({
       id: `new_material_${index}`,
@@ -210,8 +201,7 @@ export const updateCourse = async (id, course) => {
       ...newMaterials
     ];
   }
-  
-  // In a real app we'd update the server, here we just simulate success
+
   return simulateDelay(true);
 };
 
@@ -219,24 +209,18 @@ export const deleteCourse = async (id) => {
   if (!mockData.courses[id]) {
     throw new Error('Course not found');
   }
-  
-  // In a real app we'd delete from the server, here we just simulate success
+
   return simulateDelay(true);
 };
 
-// Leaderboard API
 export const getLeaderboard = () => simulateDelay(mockData.leaderboard);
 
-// Reviews API
 export const getCourseReviews = (courseId) => simulateDelay(mockData.reviews[courseId] || []);
 
-// Quiz API
 export const getQuizForCourse = (courseId) => simulateDelay(mockData.quizzes[courseId] || null);
 
-// Categories API
 export const getCategories = () => simulateDelay(mockData.categories);
 
-// User API
 export const getUsers = () => simulateDelay(mockData.users);
 
 export const getUserById = (id) => {
@@ -244,7 +228,6 @@ export const getUserById = (id) => {
   return simulateDelay(user || null);
 };
 
-// Enrollments API
 export const getEnrollments = () => simulateDelay(mockData.enrollments);
 
 export const getEnrollmentsForUser = (userId) => {

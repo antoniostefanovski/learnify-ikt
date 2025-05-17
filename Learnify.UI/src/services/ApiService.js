@@ -1,24 +1,18 @@
-// Central API service to handle switching between mock and real API calls
 import * as MockDataService from './MockDataService';
 import * as CourseService from './CourseService';
 import * as LeaderboardService from './LeaderboardService';
 import * as ReviewService from './ReviewService';
-// Import other service modules as needed
 
-// Global configuration for API mode
 export const API_MODE = {
   MOCK: 'mock',
   REAL: 'real',
   REAL_WITH_MOCK_FALLBACK: 'real_with_mock_fallback'
 };
 
-// Current API mode - change this to switch between modes
 export const CURRENT_API_MODE = API_MODE.MOCK;
 
-// Helper function to determine if we should use mock data
 export const useMockData = () => CURRENT_API_MODE === API_MODE.MOCK;
 
-// Course APIs
 export const getCourses = async () => {
   if (useMockData()) {
     return MockDataService.getCourses();
@@ -139,7 +133,6 @@ export const deleteCourse = async (id) => {
   }
 };
 
-// Leaderboard API
 export const getLeaderboard = async () => {
   if (useMockData()) {
     return MockDataService.getLeaderboard();
@@ -156,7 +149,6 @@ export const getLeaderboard = async () => {
   }
 };
 
-// Reviews API
 export const getCourseReviews = async (courseId) => {
   if (useMockData()) {
     return MockDataService.getCourseReviews(courseId);

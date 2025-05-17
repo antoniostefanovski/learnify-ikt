@@ -19,6 +19,7 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<ICertificateService, CertificateService>();
             services.AddScoped<IQuestionService, QuestionService>();
             services.AddScoped<IQuizService, QuizService>();
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
             return services;
         }
     }

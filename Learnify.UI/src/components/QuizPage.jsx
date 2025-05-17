@@ -62,7 +62,6 @@ const QuizPage = () => {
 
     return (
         <div className="w-full min-h-screen bg-white text-black px-6 py-8 flex flex-col items-center justify-start">
-            {/* Top Bar */}
             <div className="w-full flex justify-between items-center mb-6">
                 <div className="flex items-center space-x-2 text-blue-600 text-2xl font-bold">
                     <img src={Logo} alt="Logo" className="w-8 h-8" />
@@ -77,14 +76,12 @@ const QuizPage = () => {
                 </div>
             </div>
 
-            {/* Header */}
             <div className="flex items-center space-x-4 mb-6">
                 <span className="text-3xl">🏆</span>
                 <h1 className="text-3xl font-bold text-blue-600">{quiz.title || "QUIZ TIME"}</h1>
                 <span className="text-3xl">❓</span>
             </div>
 
-            {/* Question */}
             <div className="bg-blue-100 p-6 rounded-2xl text-center max-w-xl w-full mb-6 shadow">
                 <h2 className="text-xl font-semibold">{currentQuestion.text}</h2>
                 <div className="text-sm text-gray-600 mt-2">
@@ -92,7 +89,6 @@ const QuizPage = () => {
                 </div>
             </div>
 
-            {/* Answers */}
             <div className="grid grid-cols-2 gap-4 max-w-xl w-full mb-8">
                 {currentQuestion.options && currentQuestion.options.map((option, index) => (
                     <button
@@ -109,7 +105,6 @@ const QuizPage = () => {
                 ))}
             </div>
 
-            {/* Navigation */}
             <div className="flex justify-between items-center w-full max-w-xl px-6">
                 <button 
                     className={`${
