@@ -6,21 +6,25 @@ using Learnify.Service.Mappers;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Learnify.Service.Implementation
 {
     public class CertificateService : ICertificateService
     {
         private readonly ICertificateRepository certificateRepository;
+        private readonly ICourseRepository courseRepository;
+        private readonly IUserRepository userRepository;
+        private readonly IStaticMediaService staticMediaService;
 
-        public CertificateService(ICertificateRepository certificateRepository)
+        public CertificateService(ICertificateRepository certificateRepository,
+                                  ICourseRepository courseRepository,
+                                  IUserRepository userRepository,
+                                  IStaticMediaService staticMediaService)
         {
             this.certificateRepository = certificateRepository;
+            this.courseRepository = courseRepository;
+            this.userRepository = userRepository;
+            this.staticMediaService = staticMediaService;
         }
 
         public async Task InsertCertificate(InsertCertificate insertCertificate)
@@ -60,17 +64,17 @@ namespace Learnify.Service.Implementation
         }
 
      
-        public async Task<byte[]> DownloadCertificateAsync(Guid certificateId)
+        public async Task<byte[]> DownloadCertificateAsync(Guid courseId)
         {
 
-            Certificate certificate = certificateRepository.Get(certificateId);
-            if (certificate == null)
-                throw new ArgumentException("Certificate not found.", nameof(certificateId));
+            Course course = await courseRepository.GetCourseByIdAsync(courseId);
+            if (course == null)
+                throw new ArgumentException("Course not found.", nameof(courseId));
 
             byte[] pdfBytes;
             try
             {
-                pdfBytes = GenerateCertificatePdf(certificate);
+                pdfBytes = GenerateCertificatePdf(course);
             }
             catch (Exception ex)
             {
@@ -82,9 +86,13 @@ namespace Learnify.Service.Implementation
         }
 
 
-        private byte[] GenerateCertificatePdf(Certificate certificate)
+        private byte[] GenerateCertificatePdf(Course course)
         {
-  
+            var professor = userRepository.Get(course.ProfessorId);
+
+            var finkiLogo = staticMediaService.GetFinkiLogo();
+            var learnifyLogo = staticMediaService.GetLearnifyLogo();
+
             var document = Document.Create(container =>
             {
                 container.Page(page =>
@@ -92,19 +100,27 @@ namespace Learnify.Service.Implementation
                     page.Margin(50);
                     page.Size(PageSizes.A4);
 
-                   
-                    page.Header().AlignCenter().Text("Certificate of Completion")
-                        .FontSize(24)
-                        .Bold();
 
-                    
+                    page.Header().Row(row =>
+                    {
+                        row.ConstantItem(150).Image(finkiLogo);
+                        row.ConstantItem(150).Image(learnifyLogo);
+                    });
+
                     page.Content().Column(column =>
                     {
                         column.Spacing(20);
 
                         
-                        string studentName = certificate.Student != null ? certificate.Student.Name : "Student Name";
-                        string courseTitle = certificate.Course != null ? certificate.Course.Title : "Course Title";
+                        string studentName = professor.Name;
+                        string courseTitle = course!.Title;
+                        DateTime issuedDate = DateTime.Now;
+
+                        column.Item().AlignCenter().Text("Learnify IKT")
+                           .FontSize(24).Bold();
+
+                        column.Item().AlignCenter().Text("Certificate of Completion")
+                            .FontSize(20).Bold();
 
                         column.Item().Text("This certificate is presented to:")
                             .FontSize(16);
@@ -116,7 +132,7 @@ namespace Learnify.Service.Implementation
                         column.Item().Text(courseTitle)
                             .FontSize(20)
                             .Bold();
-                        column.Item().Text($"Issued on: {certificate.IssuedAt:dd MMM yyyy}")
+                        column.Item().Text($"Issued on: {issuedDate:dd MMM yyyy}")
                             .FontSize(14);
                     });
 

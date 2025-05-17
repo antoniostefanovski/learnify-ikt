@@ -8,5 +8,6 @@ namespace Learnify.Repository.Interfaces
     {
         IQueryable<Certificate> GetCertificatesByCourse(Guid courseId);
         IQueryable<Certificate> GetCertificatesByStudent(Guid studentId);
+        Certificate FindCertificateByCourse(Guid courseId);
     }
 }

@@ -56,12 +56,13 @@ namespace Learnify.Web.Controllers
             return Ok();
         }
 
-        [HttpGet("{certificateId}/download")]
-        public async Task<IActionResult> DownloadCertificate(Guid certificateId)
+        [HttpGet("{courseId}/download")]
+        public async Task<IActionResult> DownloadCertificate(Guid courseId)
         {
-            var certificate = await certificateService.DownloadCertificateAsync(certificateId);
+            var pdfBytes = await certificateService.DownloadCertificateAsync(courseId);
+            var fileName = "certificate.pdf";
 
-            return Ok(certificate);
+            return File(pdfBytes, "application/pdf", fileName);
         }
     }
 }

@@ -1,16 +1,11 @@
 
-using Learnify.Domain.Validators;
 using Learnify.Repository;
-using Learnify.Repository.Implementation;
-using Learnify.Repository.Interfaces;
 using Learnify.Web.Infrastructure.Startup;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Learnify.Service.Implementation;
-using Learnify.Service.Interfaces;
-using Microsoft.AspNetCore.Cors.Infrastructure;
+using QuestPDF.Infrastructure;
 
 namespace Learnify.Web
 {
@@ -18,6 +13,7 @@ namespace Learnify.Web
     {
         public static void Main(string[] args)
         {
+            QuestPDF.Settings.License = LicenseType.Community;
             var builder = WebApplication.CreateBuilder(args);
 
 

@@ -1,6 +1,7 @@
 ﻿using Azure.Core;
 using Learnify.Domain.DTO;
 using Learnify.Domain.Entities;
+using Learnify.Repository.Interfaces;
 using Learnify.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,10 +12,12 @@ using System.Threading.Tasks;
 public class CourseController : ControllerBase
 {
     private readonly ICourseService _courseService;
+    private readonly IUserRepository userRepository;
 
-    public CourseController(ICourseService courseService)
+    public CourseController(ICourseService courseService, IUserRepository userRepository)
     {
         _courseService = courseService;
+        this.userRepository = userRepository;
     }
 
     [HttpPost("create")]
@@ -22,12 +25,12 @@ public class CourseController : ControllerBase
     {
         try
         {
-           
+            Guid professorId = Guid.Parse("33e1981a-738a-4ac3-f481-08dd958ed9bf");
             var addcourse = new Course
             {
                 Title = request.CourseName,
                 Description = request.CourseDescription,
-                ProfessorId = Guid.Parse("2A0BD94B-F2AF-49F1-DFF5-08DD95347C3E"),
+                ProfessorId = professorId,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow
                 

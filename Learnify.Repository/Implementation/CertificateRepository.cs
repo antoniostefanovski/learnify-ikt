@@ -14,6 +14,18 @@ namespace Learnify.Repository.Implementation
             this.dbContext = dbContext;
         }
 
+        public Certificate FindCertificateByCourse(Guid courseId)
+        {
+            var certificate = GetAll().Where(c => c.CourseId == courseId).FirstOrDefault();
+
+            if (certificate == null)
+            {
+                throw new ArgumentNullException(nameof(certificate));
+            }
+            
+            return certificate;
+        }
+
         public IQueryable<Certificate> GetCertificatesByCourse(Guid courseId)
         {
             return GetAll().Where(c => c.CourseId == courseId).AsQueryable();

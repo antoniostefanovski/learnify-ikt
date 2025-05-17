@@ -70,28 +70,32 @@ export const updateCertificate = async (updateCertificate) => {
     }
 }
 
-export const downloadCertificate = async (certificateId) => {
+export const downloadCertificate = async (courseId) => {
     try {
-        const response = await axios_config.get(`${endpoint}/${certificateId}/download`, {
+        const response = await axios_config.get(`${endpoint}/${courseId}/download`, {
             responseType: 'blob',
         });
 
         if (response.status === 200) {
-            const url = window.URL.createObjectURL(new Blob([response.data], { type: 'application/pdf' }));
+            const url = window.URL.createObjectURL(response.data);
             const link = document.createElement('a');
             link.href = url;
-            link.setAttribute('download', 'certificate.pdf');
+            link.setAttribute('download', `certificate${new Date().toISOString()}.pdf`);
             document.body.appendChild(link);
             link.click();
-            link.remove();
             
-            return link;
+            // Cleanup
+            setTimeout(() => {
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(link);
+            }, 100);
+            
+            return true;
         }
 
         return false;
     } catch (err) {
-        console.error(`Error during the request: ${err}`);
-
+        console.error('Error downloading certificate:', err);
         throw err;
     }
 };

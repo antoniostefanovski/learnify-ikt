@@ -12,13 +12,9 @@ namespace Learnify.Service.Interfaces
         Task InsertCertificate(InsertCertificate insertCertificate);
         Task UpdateCertificate(UpdateCertificate updateCertificate);
         Task DeleteCertificate(Guid certificateId);
-
-
         Certificate GetCertificate(Guid certificateId);
         List<Certificate> GetCertificatesByCourse(Guid courseId);
         List<Certificate> GetCertificatesByStudent(Guid studentId);
-
-     
-        Task<byte[]> DownloadCertificateAsync(Guid certificateId);
+        Task<byte[]> DownloadCertificateAsync(Guid courseId);
     }
 }

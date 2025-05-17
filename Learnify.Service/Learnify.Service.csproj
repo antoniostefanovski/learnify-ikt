@@ -16,4 +16,20 @@
     <PackageReference Include="QuestPDF" Version="2025.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CertificateMedia\" />
+  </ItemGroup>
+  
+   <ItemGroup>
+    <EmbeddedResource Include="CertificateMedia\FINKI_Logo.jpg">
+      <LogicalName>Learnify.Service.CertificateMedia.FINKI_Logo.jpg</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+   <ItemGroup>
+    <EmbeddedResource Include="CertificateMedia\Logo.png">
+      <LogicalName>Learnify.Service.CertificateMedia.Logo.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation, Outlet, useParams, useOutletContext } from "react-router-dom";
 import { Star, StarOff, Download } from "lucide-react";
 import { getCourseById, getCourseReviews } from "../services/ApiService";
+import { downloadCertificate } from "../services/CertificateService";
 
 export default function CoursePage() {
     const location = useLocation();
@@ -132,6 +133,10 @@ export default function CoursePage() {
 export function Description() {
     const { course } = useOutletContext();
 
+    const handleDownloadCertificate = async () => {
+        downloadCertificate(course.id);
+    }
+
     return (
         <>
             <div className="bg-[url('/background_.png')] bg-cover bg-center bg-no-repeat p-6 rounded-xl shadow-md">
@@ -148,6 +153,11 @@ export function Description() {
                         <li>Big Data Technologies and Tools</li>
                     </ul>
                     <br></br><br></br><br></br><br></br>
+                    <div className="download-course-container">
+                        <button onClick={handleDownloadCertificate}>
+                            Симни сертификат
+                        </button>
+                    </div>
                 </div>
             </div>
         </>
