@@ -25,7 +25,6 @@ export default function Leaderboard() {
     fetchLeaderboardData();
   }, []);
 
-  // Enhanced function to render the star or rank number with larger stars
   const renderRank = (rank) => {
     if (rank <= 3) {
       return (
@@ -40,7 +39,6 @@ export default function Leaderboard() {
 
   return (
     <div className="min-h-screen bg-white font-inter">
-      {/* Header */}
       <header className="p-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src={Logo} alt="Learnify Logo" className="h-12" />
@@ -51,14 +49,12 @@ export default function Leaderboard() {
         </div>
       </header>
 
-      {/* Navigation */}
       <nav className="flex gap-6 px-12 mt-6">
         <Link to="/" className="text-gray-800 hover:text-blue-600 text-xl">Home</Link>
         <Link to="/courses" className="text-gray-800 hover:text-blue-600 text-xl">Courses</Link>
         <Link to="/leaderboard" className="text-indigo-900 border-b-2 border-indigo-900 font-medium text-xl">Leaderboard</Link>
       </nav>
 
-      {/* Main Content */}
       <main className="px-12 py-8">
         <h1 className="text-5xl font-bold text-indigo-900 mb-8">Leaderboard</h1>
         
@@ -77,14 +73,12 @@ export default function Leaderboard() {
         
         {!loading && !error && (
           <div className="overflow-hidden rounded-lg border border-blue-200">
-            {/* Table Header */}
             <div className="grid grid-cols-3 bg-blue-100 p-4 text-purple-900 font-bold text-2xl">
               <div className="ml-8">Rank</div>
               <div>Name</div>
               <div className="text-right mr-8">Courses finished</div>
             </div>
-            
-            {/* Table Body */}
+
             {leaderboardData.map((user) => (
               <div 
                 key={user.id} 

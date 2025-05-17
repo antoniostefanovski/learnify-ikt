@@ -1,6 +1,5 @@
 import { ArrowForward } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-//import courseImage from '../../public/courses.png';
 
 export default function CourseCard({ title, description, id }) {
     return (

@@ -12,13 +12,11 @@ export default function DiagnosticTest() {
       try {
         console.log('Loading diagnostic data...');
         setLoading(true);
-        
-        // Try to load courses
+
         const coursesData = await getCourses();
         console.log('Courses data:', coursesData);
         setCourses(coursesData || []);
-        
-        // Try to load leaderboard
+
         const leaderboardData = await getLeaderboard();
         console.log('Leaderboard data:', leaderboardData);
         setLeaderboard(leaderboardData || []);

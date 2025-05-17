@@ -14,8 +14,8 @@ import Leaderboard from "./components/Leaderboard";
 import Footer from "./components/Footer";
 import { MockDataProvider } from "./contexts/MockDataContext.jsx";
 import DiagnosticTest from "./components/DiagnosticTest";
+import AddReviewPage from "./components/AddReviewPage.jsx";
 
-// Layout component to include footer on all pages
 const Layout = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -50,6 +50,7 @@ function App() {
                         <Route path="/add-course" element={<AddCoursePage />} />
                         <Route path="/edit-course/:id" element={<EditCoursePage />} />
                         <Route path="/leaderboard" element={<Leaderboard />} />
+                        <Route path="/courses/:id/add-review" element={<AddReviewPage />} />
                     </Route>
                 </Routes>
             </Router>

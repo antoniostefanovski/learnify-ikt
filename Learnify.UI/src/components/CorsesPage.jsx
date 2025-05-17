@@ -42,13 +42,10 @@ function CoursesPage() {
         fetchCourses();
     }, []);
 
-    // Helper function to get the correct image path
     const getImagePath = (imagePath) => {
-        // If imagePath is a full URL or already starts with '/', use it as is
         if (imagePath && (imagePath.startsWith('http') || imagePath.startsWith('/'))) {
             return imagePath;
         }
-        // Default image if none provided
         return '/courses.png';
     };
 
@@ -59,7 +56,6 @@ function CoursesPage() {
 
     return (
         <div className="min-h-screen bg-white px-8 py-10">
-            {/* Header */}
             <div className="flex justify-between items-center mb-8">
                 <div className="flex items-center space-x-2">
                     <img src={Logo} alt="Learnify Logo" className="h-10" />
@@ -68,7 +64,6 @@ function CoursesPage() {
                 <p className="text-lg font-semibold text-blue-700">Hello, User!</p>
             </div>
 
-            {/* Nav */}
             <div className="flex space-x-6 text-xl mb-6 ml-2">
                 <span 
                     className="text-gray-700 hover:underline cursor-pointer"
@@ -79,10 +74,8 @@ function CoursesPage() {
                 <span className="text-black font-bold border-b-2 border-black">Courses</span>
             </div>
 
-            {/* Title */}
             <h2 className="text-4xl font-extrabold text-blue-900 mb-10 ml-2">Pick a course!</h2>
 
-            {/* Loading and Error States */}
             {loading && (
                 <div className="flex justify-center items-center py-20">
                     <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
@@ -104,7 +97,6 @@ function CoursesPage() {
                 </div>
             )}
 
-            {/* Courses */}
             {!loading && !error && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
                     {courses.length > 0 ? (

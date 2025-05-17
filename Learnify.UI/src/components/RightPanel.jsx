@@ -31,7 +31,6 @@ export default function RightPanel() {
     }, []);
     
     const generateRandomActivityData = () => {
-        // This is just a placeholder for actual API data
         const randomData = Array.from({ length: 7 }, () => 
             Math.floor(Math.random() * 100) + 20
         );

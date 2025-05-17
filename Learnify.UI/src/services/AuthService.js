@@ -60,8 +60,7 @@ export const getCurrentUser = async () => {
         if (userData) {
             return JSON.parse(userData);
         }
-        
-        // If not, get it from the API if we have a token
+
         const token = localStorage.getItem('token');
         if (token) {
             // You may need to implement this endpoint on your backend

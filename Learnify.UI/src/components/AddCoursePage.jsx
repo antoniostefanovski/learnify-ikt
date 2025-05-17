@@ -35,11 +35,8 @@ export default function AddCoursePage() {
     try {
       setIsLoading(true);
       setError(null);
-      
-      // In a real app, we'd determine whether to use FormData or plain object
-      // based on the API needs, but for simplicity, we'll create FormData
-      
-      // Create course data
+
+
       const courseData = {
         courseName: formData.courseName,
         courseDescription: formData.courseDescription,
@@ -50,7 +47,6 @@ export default function AddCoursePage() {
       const result = await createCourse(courseData);
       
       if (result) {
-        // Navigate to the course page or courses list
         navigate('/courses');
       } else {
         setError('Failed to create course');
@@ -64,13 +60,11 @@ export default function AddCoursePage() {
   };
 
   const handleCancel = () => {
-    // Navigate back to courses page
     navigate('/dashboard');
   };
 
   return (
     <div className="w-full bg-white font-inter">
-      {/* Header */}
       <header className="flex justify-between items-center p-4 w-full">
         <div className="flex items-center">
           <img src={Logo} alt="Learnify Logo" className="h-12" />
@@ -81,7 +75,6 @@ export default function AddCoursePage() {
         </div>
       </header>
 
-      {/* Main Form */}
       <div className="max-w-4xl mx-auto p-8">
         <div className="bg-[#C6E1FF] bg-opacity-80 rounded-2xl p-8">
           <h2 className="text-3xl font-bold text-center mb-8 text-black">Add New Course</h2>

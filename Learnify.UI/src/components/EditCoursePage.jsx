@@ -16,7 +16,6 @@ export default function EditCoursePage() {
   });
   const [materials, setMaterials] = useState([]);
 
-  // Fetch course data when component mounts
   useEffect(() => {
     const fetchCourseData = async () => {
       try {
@@ -31,8 +30,7 @@ export default function EditCoursePage() {
             category: courseData.category || '',
             courseImage: null // Existing image will be shown differently
           });
-          
-          // If we have materials data
+
           if (courseData.materials && Array.isArray(courseData.materials)) {
             setMaterials(courseData.materials);
           }
@@ -67,8 +65,7 @@ export default function EditCoursePage() {
         ...formData,
         courseImage: files[0]
       });
-      
-      // Add new files to materials list for display
+
       const newMaterials = files.map(file => ({
         name: file.name,
         file: file,
@@ -83,8 +80,7 @@ export default function EditCoursePage() {
     e.preventDefault();
     try {
       setIsLoading(true);
-      
-      // Create course data object
+
       const courseData = {
         id: id,
         courseName: formData.courseName,
@@ -147,7 +143,6 @@ export default function EditCoursePage() {
 
   return (
     <div className="w-full min-h-screen bg-white font-inter">
-      {/* Header */}
       <header className="flex justify-between items-center p-4 w-full">
         <div className="flex items-center">
           <img src={Logo} alt="Learnify Logo" className="h-12" />
@@ -158,7 +153,6 @@ export default function EditCoursePage() {
         </div>
       </header>
 
-      {/* Main Form */}
       <div className="max-w-4xl mx-auto p-8">
         <div className="bg-[#C6E1FF] bg-opacity-80 rounded-2xl p-8">
           <h2 className="text-3xl font-bold text-center mb-8 text-black">Edit Course</h2>
@@ -232,8 +226,7 @@ export default function EditCoursePage() {
                   multiple
                 />
               </label>
-              
-              {/* Display existing and new materials */}
+
               {materials.length > 0 && (
                 <div className="mt-4">
                   {materials.map((material, index) => (

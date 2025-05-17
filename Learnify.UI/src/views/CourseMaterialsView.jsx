@@ -16,13 +16,11 @@ function CourseMaterialsContent(props) {
         const fetchMaterials = async () => {
             try {
                 setLoading(true);
-                // Get both modules and lessons to create a comprehensive list of course materials
                 const [moduleData, lessonData] = await Promise.all([
                     getAllCourseModules(courseId),
                     getLessonsByCourseId(courseId)
                 ]);
-                
-                // Transform modules and lessons into materials format
+
                 const formattedMaterials = [
                     ...moduleData.map(module => ({
                         name: module.title,

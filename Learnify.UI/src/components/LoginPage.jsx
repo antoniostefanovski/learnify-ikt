@@ -29,7 +29,6 @@ function LoginPage() {
 
     return (
         <div className="h-screen flex">
-            {/* Left Section */}
             <div className="w-1/2 bg-white flex flex-col justify-center items-center p-10">
                 <div className="mb-6 flex items-center">
                     <img src={Logo} alt="Learnify Logo" className="h-10 w-10 mr-2" />
@@ -45,7 +44,6 @@ function LoginPage() {
                 />
             </div>
 
-            {/* Right Section */}
             <div className="w-1/2 bg-white flex flex-col justify-center px-20">
                 <h2 className="text-4xl font-bold text-blue-700 mb-6">Log in and level up!</h2>
                 
