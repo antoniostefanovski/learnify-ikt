@@ -100,7 +100,7 @@ export default function EditCoursePage() {
       const success = await updateCourse(id, courseData);
       
       if (success) {
-        navigate(`/course/${id}`);
+        navigate(`/dashboard`);
       } else {
         setError('Failed to update course');
       }
@@ -113,7 +113,7 @@ export default function EditCoursePage() {
   };
 
   const handleCancel = () => {
-    navigate(`/course/${id}`);
+    navigate(`/dashboard`);
   };
 
   const handleDelete = async () => {
