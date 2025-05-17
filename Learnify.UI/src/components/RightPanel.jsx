@@ -41,7 +41,7 @@ export default function RightPanel() {
     return (
         <div className="w-1/4 bg-blue-50 p-6 space-y-6">
             <h2 className="text-2xl font-bold text-blue-700 text-right">
-                {loading ? 'Loading...' : `Hello, ${user?.name || 'User'}!`}
+                {loading ? 'Loading...' : `Hello, ${user?.email|| 'User'}!`}
             </h2>
 
             <div className="bg-white rounded-2xl shadow-lg p-4">

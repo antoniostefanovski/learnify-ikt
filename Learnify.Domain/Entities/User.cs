@@ -1,4 +1,5 @@
 ﻿using Learnify.Domain.Enums;
+using System.Text.Json.Serialization;
 
 namespace Learnify.Domain.Entities
 {
@@ -14,8 +15,13 @@ namespace Learnify.Domain.Entities
         public byte[]? ProfilePicture { get; set; }
         public DateTime RegistrationTime { get; set; } = DateTime.UtcNow;
         public UserRole Role { get; set; }
-        public virtual ICollection<Course>? Courses { get; set; }
-        public virtual ICollection<Enrollment>? Enrollments { get; set; }
-        public virtual ICollection<Review>? Reviews { get; set; }
+        [JsonIgnore]
+        public ICollection<Course>? Courses { get; set; }
+
+        [JsonIgnore]
+        public ICollection<Enrollment>? Enrollments { get; set; }
+
+        [JsonIgnore]
+        public ICollection<Review>? Reviews { get; set; }
     }
 }

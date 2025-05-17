@@ -37,15 +37,7 @@ namespace Learnify.Service.Implementation
             return await _courseRepository.GetAllCoursesAsync();
         }
 
-        public async Task UpdateCourseAsync(Course course)
-        {
-
-            var existingCourse = await _courseRepository.GetCourseByIdAsync(course.Id);
-            if (existingCourse == null)
-                throw new Exception("Course not found!");
-
-            await _courseRepository.UpdateCourseAsync(course);
-        }
+        
 
         public async Task DeleteCourseAsync(Guid courseId)
         {
@@ -55,6 +47,16 @@ namespace Learnify.Service.Implementation
                 throw new Exception("Course not found!");
 
             await _courseRepository.DeleteCourseAsync(courseId);
+        }
+
+        public async Task<Course> UpdateCourseAsync(Course course)
+        {
+            var existingCourse = await _courseRepository.GetCourseByIdAsync(course.Id);
+            if (existingCourse == null)
+                throw new Exception("Course not found!");
+
+            return  await _courseRepository.UpdateCourseAsync(course);
+            
         }
     }
 }

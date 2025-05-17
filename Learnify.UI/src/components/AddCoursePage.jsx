@@ -11,7 +11,8 @@ export default function AddCoursePage() {
     courseName: '',
     courseDescription: '',
     category: '',
-    courseImage: null
+    courseImage: null,
+    proffesorId: ''
   });
 
   const handleInputChange = (e) => {
@@ -64,7 +65,7 @@ export default function AddCoursePage() {
 
   const handleCancel = () => {
     // Navigate back to courses page
-    navigate('/courses');
+    navigate('/dashboard');
   };
 
   return (

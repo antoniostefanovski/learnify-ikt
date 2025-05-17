@@ -16,9 +16,9 @@ namespace Learnify.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetLeaderboard()
+        public async Task<IActionResult> GetLeaderboard()
         {
-            var leaderboard = leaderboardService.GetLeaderboard();
+            var leaderboard = await leaderboardService.GetLeaderboard();
 
             return Ok(leaderboard);
         }
