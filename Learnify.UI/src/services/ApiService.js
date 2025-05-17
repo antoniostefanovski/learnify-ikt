@@ -9,7 +9,8 @@ export const API_MODE = {
   REAL_WITH_MOCK_FALLBACK: 'real_with_mock_fallback'
 };
 
-export const CURRENT_API_MODE = API_MODE.MOCK;
+
+export const CURRENT_API_MODE = API_MODE.REAL;
 
 export const useMockData = () => CURRENT_API_MODE === API_MODE.MOCK;
 
@@ -52,22 +53,22 @@ export const createCourse = async (course) => {
   
   try {
     // For real API, convert to FormData if needed
-    let courseData = course;
+    // let courseData = course;
     
-    if (!(courseData instanceof FormData)) {
-      const formData = new FormData();
-      formData.append('title', course.courseName || '');
-      formData.append('description', course.courseDescription || '');
-      formData.append('category', course.category || '');
+    // if (!(courseData instanceof FormData)) {
+    //   const formData = new FormData();
+    //   formData.append('title', course.courseName || '');
+    //   formData.append('description', course.courseDescription || '');
+    //   formData.append('category', course.category || '');
       
-      if (course.courseImage) {
-        formData.append('image', course.courseImage);
-      }
+    //   if (course.courseImage) {
+    //     formData.append('image', course.courseImage);
+    //   }
       
-      courseData = formData;
-    }
+    //   courseData = formData;
+    // }
     
-    return await CourseService.createCourse(courseData);
+    return await CourseService.createCourse(course);
   } catch (error) {
     if (CURRENT_API_MODE === API_MODE.REAL_WITH_MOCK_FALLBACK) {
       console.log('Falling back to mock data for course creation');
@@ -83,31 +84,8 @@ export const updateCourse = async (id, course) => {
   }
   
   try {
-    // For real API, convert to FormData if needed
-    let courseData = course;
     
-    if (!(courseData instanceof FormData)) {
-      const formData = new FormData();
-      formData.append('id', id);
-      formData.append('title', course.courseName || '');
-      formData.append('description', course.courseDescription || '');
-      formData.append('category', course.category || '');
-      
-      if (course.courseImage) {
-        formData.append('image', course.courseImage);
-      }
-      
-      // Handle materials
-      if (course.materials && course.materials.length > 0) {
-        course.materials.filter(m => m.file).forEach(material => {
-          formData.append('materials', material.file);
-        });
-      }
-      
-      courseData = formData;
-    }
-    
-    return await CourseService.updateCourse(id, courseData);
+    return await CourseService.updateCourse(id, course);
   } catch (error) {
     if (CURRENT_API_MODE === API_MODE.REAL_WITH_MOCK_FALLBACK) {
       console.log(`Falling back to mock data for updating course ${id}`);
@@ -151,15 +129,15 @@ export const getLeaderboard = async () => {
 
 export const getCourseReviews = async (courseId) => {
   if (useMockData()) {
-    return MockDataService.getCourseReviews(courseId);
+    return MockDataService.getReviewsByCourseId(courseId);
   }
   
   try {
-    return await ReviewService.getCourseReviews(courseId);
+    return await ReviewService.getReviewsByCourseId(courseId);
   } catch (error) {
     if (CURRENT_API_MODE === API_MODE.REAL_WITH_MOCK_FALLBACK) {
       console.log(`Falling back to mock data for reviews of course ${courseId}`);
-      return MockDataService.getCourseReviews(courseId);
+      return MockDataService.getCourseRgetReviewsByCourseIdeviews(courseId);
     }
     throw error;
   }

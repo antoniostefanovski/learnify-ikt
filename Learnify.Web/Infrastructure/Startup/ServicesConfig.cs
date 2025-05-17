@@ -20,6 +20,8 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<IQuestionService, QuestionService>();
             services.AddScoped<IQuizService, QuizService>();
             services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<ICourseService, CourseService>();
+
             return services;
         }
     }

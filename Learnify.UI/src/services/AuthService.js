@@ -1,32 +1,49 @@
 import { axios_config } from '../axios/axios_config';
 
-const endpoint = "/auth";
+const endpoint = "/auth"; // Update endpoint to match backend
 
-export const register = async (registerUserDto) => {
+export const login = async (email, password) => {
     try {
-        const response = await axios_config.post(`${endpoint}/register`, registerUserDto);
-
-        return response.status === 200;
-    } catch (err) {
-        console.error(`Error during the request: ${err}`);
-
-        throw err;
-    }
-};
-
-export const login = async (username, password) => {
-    try {
-        const response = await axios_config.post(`${endpoint}/login`, { username, password });
-        const { token, user } = response.data;
+        // Send email instead of username to match backend expectations
+        const response = await axios_config.post(`${endpoint}/login`, { email, password });
+        
+        // Backend returns only a token, not a user object
+        const token = response.data.token;
         localStorage.setItem('token', token);
+        
+        // Get user details with a separate call (you may need to implement this endpoint)
+        // or decode the JWT token to get basic user info
+        const user = decodeUserFromToken(token);
         localStorage.setItem('user', JSON.stringify(user));
-        return user;
+        
+        return response.data;
     } catch (err) {
         console.error(`Error during login: ${err.response?.data || err.message}`);
         throw err;
     }
 };
 
+// Helper function to decode JWT token (basic implementation)
+const decodeUserFromToken = (token) => {
+    try {
+        // JWT tokens are in format: header.payload.signature
+        const payload = token.split('.')[1];
+        // Decode base64
+        const decodedPayload = JSON.parse(atob(payload));
+        
+        return {
+            id: decodedPayload.nameid || decodedPayload.sub,
+            name: decodedPayload.name, // Common JWT claims for user ID
+            email: decodedPayload.email,
+            role: decodedPayload.role
+        };
+    } catch (e) {
+        console.error('Error decoding token', e);
+        return null;
+    }
+};
+
+// Rest of your code remains the same
 export const logout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
@@ -46,6 +63,7 @@ export const getCurrentUser = async () => {
 
         const token = localStorage.getItem('token');
         if (token) {
+            // You may need to implement this endpoint on your backend
             const response = await axios_config.get(`${endpoint}/me`);
             if (response.status === 200) {
                 localStorage.setItem('user', JSON.stringify(response.data));

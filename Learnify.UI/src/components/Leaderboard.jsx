@@ -87,7 +87,7 @@ export default function Leaderboard() {
                 <div className="flex justify-center ml-8">
                   {renderRank(user.rank)}
                 </div>
-                <div className="text-purple-900 font-semibold">{user.name}</div>
+                <div className="text-purple-900 font-semibold">{user.student.name}</div>
                 <div className="text-right text-purple-900 font-semibold mr-8">{user.coursesFinished}</div>
               </div>
             ))}

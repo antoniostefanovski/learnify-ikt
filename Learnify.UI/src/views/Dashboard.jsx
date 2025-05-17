@@ -69,8 +69,9 @@ function DashboardContent(props) {
                         ) : (
                             <p>No courses available.</p>
                         )}
-
-                        <div className="mt-8 border-t pt-4">
+                        
+                        {/* Test courses for mock editing */}
+                        {/* <div className="mt-8 border-t pt-4">
                             <h3 className="text-lg font-semibold mb-4">Test Courses (Mock Data)</h3>
                             <div className="flex flex-col gap-4">
                                 <div className="bg-blue-100 p-6 rounded-2xl flex items-center justify-between shadow-md relative">
@@ -112,7 +113,7 @@ function DashboardContent(props) {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 )}
             </div>

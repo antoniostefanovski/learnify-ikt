@@ -1,4 +1,5 @@
-﻿using Learnify.Domain.DTO;
+﻿using Azure.Core;
+using Learnify.Domain.DTO;
 using Learnify.Domain.Entities;
 using Learnify.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -17,12 +18,25 @@ public class CourseController : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<IActionResult> CreateCourse([FromBody] Course course)
+    public async Task<IActionResult> CreateCourse([FromBody] CreateCourseRequest request)
     {
         try
         {
-            var createdCourse = await _courseService.CreateCourseAsync(course);
-            return Ok(new { message = "Course created successfully", courseId = createdCourse.Id });
+           
+            var addcourse = new Course
+            {
+                Title = request.CourseName,
+                Description = request.CourseDescription,
+                ProfessorId = Guid.Parse("2A0BD94B-F2AF-49F1-DFF5-08DD95347C3E"),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+                
+            };
+
+            var createdCourse = await _courseService.CreateCourseAsync(addcourse);
+
+          
+            return Ok(createdCourse);
         }
         catch (Exception ex)
         {
@@ -63,21 +77,30 @@ public class CourseController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateCourse(Guid id, [FromBody] Course course)
+    public async Task<IActionResult> UpdateCourse(Guid id, [FromBody] CreateCourseRequest request)
     {
-        if (id != course.Id)
-        {
-            return BadRequest(new { error = "Course ID mismatch" });
-        }
-
         try
         {
-            await _courseService.UpdateCourseAsync(course);
-            return NoContent();
+
+            var addcourse = new Course
+            {
+                Id = id,
+                Title = request.CourseName,
+                Description = request.CourseDescription,
+                ProfessorId = Guid.Parse("2A0BD94B-F2AF-49F1-DFF5-08DD95347C3E"),
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+
+            };
+
+            var updatedCourse = await _courseService.UpdateCourseAsync(addcourse);
+
+
+            return Ok(updatedCourse);
         }
         catch (Exception ex)
         {
-            return NotFound(new { error = ex.Message });
+            return BadRequest(new { error = ex.Message });
         }
     }
 

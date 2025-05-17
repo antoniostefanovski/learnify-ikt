@@ -26,10 +26,6 @@ namespace Learnify.Repository.Implementation
         public async Task<Course> GetCourseByIdAsync(Guid courseId)
         {
             return await _context.Courses
-                .Include(c => c.Professor)
-                .Include(c => c.Modules)
-                .Include(c => c.Quizzes)
-                .Include(c => c.Reviews)
                 .FirstOrDefaultAsync(c => c.Id == courseId);
         }
 
@@ -40,10 +36,11 @@ namespace Learnify.Repository.Implementation
                 .ToListAsync();
         }
 
-        public async Task UpdateCourseAsync(Course course)
+        public async Task<Course> UpdateCourseAsync(Course course)
         {
             _context.Courses.Update(course);
             await _context.SaveChangesAsync();
+            return course;
         }
 
         public async Task DeleteCourseAsync(Guid courseId)

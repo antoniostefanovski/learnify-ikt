@@ -112,6 +112,13 @@ export default function CoursePage() {
                 >
                     Reviews
                 </Link>
+                <Link
+                    to="quiz"
+                    className={`py-2 px-4 rounded-md ${location.pathname.endsWith("quiz") ? "bg-blue-500 text-white" : "text-gray-600 hover:bg-gray-200"
+                        }`}
+                >
+                    Quiz
+                </Link>
             </nav>
 
             <div className="mt-8 w-full bg-white p-6 rounded-xl shadow-md text-gray-700">

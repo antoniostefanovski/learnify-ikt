@@ -1,11 +1,11 @@
 import axios from "axios";
 
 const API_CONFIG = {
-    BASEURL: 'http://localhost:5156/api',
-    TIMEOUT: 3000,
-    WITH_CREDENTIALS: true,
-    SIMULATE_DELAY: false,
-    DELAY_MS: 300
+  BASE_URL: import.meta.env.VITE_API_URL || "http://localhost:5156/api",
+  TIMEOUT: 3000,
+  WITH_CREDENTIALS: true,
+  SIMULATE_DELAY: false, 
+  DELAY_MS: 300 
 };
 
 const axiosInstance = axios.create({

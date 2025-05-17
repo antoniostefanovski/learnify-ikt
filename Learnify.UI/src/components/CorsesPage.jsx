@@ -67,7 +67,7 @@ function CoursesPage() {
             <div className="flex space-x-6 text-xl mb-6 ml-2">
                 <span 
                     className="text-gray-700 hover:underline cursor-pointer"
-                    onClick={() => navigate('/')}
+                    onClick={() => navigate('/dashboard')}
                 >
                     Home
                 </span>

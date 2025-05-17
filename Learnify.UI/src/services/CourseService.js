@@ -1,6 +1,6 @@
 import { axios_config } from '../axios/axios_config';
 
-const endpoint = '/course';
+const endpoint = '/Course';
 
 export const createCourse = async (course) => {
     try {
@@ -42,7 +42,7 @@ export const updateCourse = async (id, course) => {
     try {
         const response = await axios_config.put(`${endpoint}/${id}`, course);
 
-        return response.status === 200;
+        return response.status === 200 ? response.data : null;
     } catch (err) {
         console.error(`Error during the request: ${err.response}`);
 

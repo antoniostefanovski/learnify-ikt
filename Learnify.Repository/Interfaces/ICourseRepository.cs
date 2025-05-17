@@ -10,7 +10,7 @@ namespace Learnify.Repository.Interfaces
         Task<Course> CreateCourseAsync(Course course);
         Task<Course> GetCourseByIdAsync(Guid courseId);
         Task<IEnumerable<Course>> GetAllCoursesAsync();
-        Task UpdateCourseAsync(Course course);
+        Task<Course> UpdateCourseAsync(Course course);
         Task DeleteCourseAsync(Guid courseId);
     }
 }
