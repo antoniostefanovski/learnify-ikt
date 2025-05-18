@@ -5,6 +5,7 @@ import {
   validateInputs
 } from "../utils/RegisterPage.policy";
 import { register } from "../services/AuthService";
+import { Link } from "react-router-dom";
 
 const cities = [
   { key: 'Skopje', value: 'Skopje' },
@@ -163,6 +164,13 @@ function RegisterPage() {
           >
             Register
           </button>
+          <Link
+            to="/login"
+            className="block text-center text-sm text-blue-700 mt-4 hover:underline"
+          >
+            Already have an account? Log in
+          </Link>
+
         </form>
       </div>
     </div>

@@ -2,8 +2,9 @@
 import Checklist_image from '../assets/Checklist_image.png';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AuthService } from '../services/AuthService'; // Adjust path as needed
-import Logo from '../assets/logo.png'; // Adjust path as needed
+import { AuthService } from '../services/AuthService';
+import Logo from '../assets/logo.png';
+import { Link } from "react-router-dom";
 
 function LoginPage() {
     const [email, setEmail] = useState('');
@@ -19,7 +20,7 @@ function LoginPage() {
         
         try {
             await AuthService.login(email, password);
-            navigate('/dashboard'); // Redirect to dashboard after login
+            navigate('/dashboard');
         } catch (err) {
             setError(err.response?.data?.error || 'Failed to login. Please check your credentials.');
         } finally {
@@ -85,6 +86,12 @@ function LoginPage() {
                     >
                         {isLoading ? 'Logging in...' : 'Login'}
                     </button>
+                    <Link
+                        to="/register"
+                        className="text-center text-sm text-blue-700 ml-4 mt-4 hover:underline"
+                    >
+                        Don't have an account ? Register now.
+                    </Link>
                 </form>
             </div>
         </div>
