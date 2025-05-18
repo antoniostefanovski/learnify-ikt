@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Logout, Dashboard, MenuBook } from '@mui/icons-material';
+import { logout } from '../services/AuthService';
 
 export default function Sidebar() {
     const [menuItems] = useState([
@@ -8,6 +9,10 @@ export default function Sidebar() {
         { to: "/courses", label: "All courses", icon: <MenuBook /> },
     ]);
     const location = useLocation();
+
+    const handleLogout = () => {
+        logout();
+    }
 
     return (
         <div className="w-1/5 h-full bg-blue-100 p-4 flex flex-col justify-between">
@@ -35,12 +40,12 @@ export default function Sidebar() {
             </div>
 
 
-            <Link
-                to="/logout"
+            <button
+                onClick={handleLogout}
                 className="flex items-center gap-2 text-gray-600 cursor-pointer hover:text-red-500 text-sm"
             >
                 <Logout /> Log out
-            </Link>
+            </button>
         </div>
     );
 }

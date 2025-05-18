@@ -4,15 +4,11 @@ const endpoint = "/auth"; // Update endpoint to match backend
 
 export const login = async (email, password) => {
     try {
-        // Send email instead of username to match backend expectations
         const response = await axios_config.post(`${endpoint}/login`, { email, password });
         
-        // Backend returns only a token, not a user object
         const token = response.data.token;
         localStorage.setItem('token', token);
         
-        // Get user details with a separate call (you may need to implement this endpoint)
-        // or decode the JWT token to get basic user info
         const user = decodeUserFromToken(token);
         localStorage.setItem('user', JSON.stringify(user));
         
@@ -23,17 +19,15 @@ export const login = async (email, password) => {
     }
 };
 
-// Helper function to decode JWT token (basic implementation)
 const decodeUserFromToken = (token) => {
     try {
-        // JWT tokens are in format: header.payload.signature
         const payload = token.split('.')[1];
-        // Decode base64
+
         const decodedPayload = JSON.parse(atob(payload));
         
         return {
             id: decodedPayload.nameid || decodedPayload.sub,
-            name: decodedPayload.name, // Common JWT claims for user ID
+            name: decodedPayload.name,
             email: decodedPayload.email,
             role: decodedPayload.role
         };
@@ -43,10 +37,11 @@ const decodeUserFromToken = (token) => {
     }
 };
 
-// Rest of your code remains the same
 export const logout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
+
+    window.location.replace('/login');
 };
 
 export const isAuthenticated = () => {
@@ -55,7 +50,6 @@ export const isAuthenticated = () => {
 
 export const getCurrentUser = async () => {
     try {
-        // First check if we have user data in localStorage
         const userData = localStorage.getItem('user');
         if (userData) {
             return JSON.parse(userData);
@@ -63,7 +57,6 @@ export const getCurrentUser = async () => {
 
         const token = localStorage.getItem('token');
         if (token) {
-            // You may need to implement this endpoint on your backend
             const response = await axios_config.get(`${endpoint}/me`);
             if (response.status === 200) {
                 localStorage.setItem('user', JSON.stringify(response.data));
@@ -75,6 +68,20 @@ export const getCurrentUser = async () => {
     } catch (err) {
         console.error(`Error getting current user: ${err.response?.data || err.message}`);
         return null;
+    }
+};
+
+export const register = async (registerUserDto) => {
+    try {
+        const response = await axios_config.post(`${endpoint}/register`, registerUserDto);
+
+        if (response.status == 200) {
+            window.location.replace('/login');
+        }
+    } catch (err) {
+        console.error(`Error during the request: ${err}`);
+
+        throw err;
     }
 };
 

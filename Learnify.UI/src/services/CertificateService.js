@@ -84,7 +84,6 @@ export const downloadCertificate = async (courseId) => {
             document.body.appendChild(link);
             link.click();
             
-            // Cleanup
             setTimeout(() => {
                 window.URL.revokeObjectURL(url);
                 document.body.removeChild(link);
