@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Logout, Dashboard, MenuBook } from '@mui/icons-material';
+import { Logout, Dashboard, MenuBook, Chat } from '@mui/icons-material';
 import { logout } from '../services/AuthService';
 
 export default function Sidebar() {
     const [menuItems] = useState([
         { to: "/dashboard", label: "Dashboard", icon: <Dashboard /> },
         { to: "/courses", label: "All courses", icon: <MenuBook /> },
+        { to: "/chatbot", label: "Learnify Chatbot", icon: <Chat /> }, 
     ]);
     const location = useLocation();
 

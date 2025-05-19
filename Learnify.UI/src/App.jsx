@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import { MockDataProvider } from "./contexts/MockDataContext.jsx";
 import DiagnosticTest from "./components/DiagnosticTest";
 import AddReviewPage from "./components/AddReviewPage.jsx";
+import ChatbotPage from "./components/ChatbotPage.jsx";
 
 const Layout = () => {
   return (
@@ -40,6 +41,7 @@ function App() {
                         <Route path="/register" element={<RegisterPage />} />
                         <Route path="/courses" element={<CoursesPage />} />
                         <Route path="/course/:id" element={<CoursePage />}>
+  
                             <Route index element={<Description />} />
                             <Route path="description" element={<Description />} />
                             <Route path="materials" element={<Materials />} />
@@ -51,6 +53,8 @@ function App() {
                         <Route path="/edit-course/:id" element={<EditCoursePage />} />
                         <Route path="/leaderboard" element={<Leaderboard />} />
                         <Route path="/courses/:id/add-review" element={<AddReviewPage />} />
+                        <Route path="/chatbot" element={<ChatbotPage />} />
+                        
                     </Route>
                 </Routes>
             </Router>

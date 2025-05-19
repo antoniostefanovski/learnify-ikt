@@ -25,7 +25,7 @@ public class CourseController : ControllerBase
     {
         try
         {
-            Guid professorId = Guid.Parse("33e1981a-738a-4ac3-f481-08dd958ed9bf");
+            Guid professorId = Guid.Parse("7E1F38EF-8229-4813-14EA-08DD90A13A4F");
             var addcourse = new Course
             {
                 Title = request.CourseName,
