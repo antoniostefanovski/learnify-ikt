@@ -22,6 +22,7 @@ namespace Learnify.Web.Infrastructure.Startup
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<ICourseService, CourseService>();
             services.AddScoped<IStaticMediaService, StaticMediaService>();
+            services.AddHttpClient<Learnify.Service.Interface.IGpt2Service, Learnify.Service.Implementation.Gpt2Service>();
 
             return services;
         }
