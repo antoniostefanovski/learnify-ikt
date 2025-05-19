@@ -46,6 +46,11 @@ namespace Learnify.Web
             });
 
 
+
+            builder.Services.AddHttpClient<Learnify.Service.Interface.IGpt2Service, Learnify.Service.Implementation.Gpt2Service>();
+
+
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
