@@ -46,6 +46,11 @@ namespace Learnify.Web
             });
 
 
+
+           
+
+
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
