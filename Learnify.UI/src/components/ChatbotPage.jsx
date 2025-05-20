@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import { motion } from 'framer-motion';
+import { sendMessageToChatbot } from '../services/ChatbotService'; 
 
-const Chatbot = () => {
+const ChatbotPage = () => {
   const [messages, setMessages] = useState([
     {
       id: uuidv4(),
@@ -23,49 +24,46 @@ const Chatbot = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const handleSendMessage = () => {
-    if (inputMessage.trim()) {
-      const userMessage = {
+  const handleSendMessage = async () => {
+    const trimmed = inputMessage.trim();
+    if (!trimmed || trimmed.length <= 3) return;
+
+    const userMessage = {
+      id: uuidv4(),
+      content: trimmed,
+      isUser: true,
+    };
+
+    setMessages((prev) => [...prev, userMessage]);
+    setInputMessage('');
+    setIsBotTyping(true);
+
+    try {
+      const botReply = await sendMessageToChatbot(trimmed);
+
+      const botMessage = {
         id: uuidv4(),
-        content: inputMessage,
-        isUser: true,
+        content: botReply || "Sorry, I didn't understand that.",
+        isUser: false,
       };
 
-      setMessages((prev) => [...prev, userMessage]);
-      setInputMessage('');
-      setIsBotTyping(true);
-
-      setTimeout(() => {
-        const botMessage = {
-          id: uuidv4(),
-          content: getBotResponse(userMessage.content),
-          isUser: false,
-        };
-
-        setMessages((prev) => [...prev, botMessage]);
-        setIsBotTyping(false);
-      }, 1200);
+      setMessages((prev) => [...prev, botMessage]);
+    } catch (error) {
+      const errorMessage = {
+        id: uuidv4(),
+        content: '⚠️ Failed to get response. Please try again later.',
+        isUser: false,
+      };
+      setMessages((prev) => [...prev, errorMessage]);
     }
+
+    setIsBotTyping(false);
   };
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
       handleSendMessage();
-    }
-  };
-
-  const getBotResponse = (userMessage) => {
-    const msg = userMessage.toLowerCase();
-
-    if (msg.includes('hello') || msg.includes('hi')) {
-      return "Hey there! 👋 How can I assist you today?";
-    } else if (msg.includes('help')) {
-      return "🛟 I'm here to help! What do you need assistance with?";
-    } else if (msg.includes('thank')) {
-      return "You're welcome! 😊 Let me know if there's anything else!";
-    } else {
-      return `I received your message: "${userMessage}". What would you like to do next? 🤔`;
     }
   };
 
@@ -90,7 +88,7 @@ const Chatbot = () => {
                   : 'self-start bg-blue-100 text-blue-900 rounded-bl-none'
               }`}
             >
-              <p className="text-base leading-relaxed">{message.content}</p>
+              <p className="text-base leading-relaxed whitespace-pre-wrap">{message.content}</p>
             </motion.div>
           ))}
           {isBotTyping && (
@@ -119,7 +117,7 @@ const Chatbot = () => {
           />
           <button
             onClick={handleSendMessage}
-            disabled={!inputMessage.trim()}
+            disabled={!inputMessage.trim() || inputMessage.trim().length <= 3}
             className="absolute right-3 bottom-3 p-3 rounded-full bg-gradient-to-br from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
             aria-label="Send message"
           >
@@ -131,4 +129,4 @@ const Chatbot = () => {
   );
 };
 
-export default Chatbot;
+export default ChatbotPage;
