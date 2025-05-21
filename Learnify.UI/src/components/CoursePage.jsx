@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation, Outlet, useParams, useOutletContext } from "react-router-dom";
 import { Star, StarOff, Download } from "lucide-react";
 import { getCourseById, getCourseReviews } from "../services/ApiService";
+import { getMaterials } from "../services/MockDataService";
 import { downloadCertificate } from "../services/CertificateService";
 
 export default function CoursePage() {
@@ -165,8 +166,18 @@ export function Description() {
 }
 
 export function Materials() {
-    const { course } = useOutletContext();
-    const isAdmin = true;
+    const isAdmin = true; // Replace with actual logic for checking if the user is an admin
+    const [materials, setMaterials] = useState([]);
+
+    useEffect(() => {
+        const fetchMaterials = async () => {
+            const data = await getMaterials();
+            console.log("Fetched materials:", data);
+            setMaterials(data);
+        };
+
+        fetchMaterials();
+    }, []);
 
     const getMaterialUrl = (url) => {
         if (url && (url.startsWith('http') || url.startsWith('/'))) {
@@ -187,9 +198,9 @@ export function Materials() {
             )}
 
             <h2 className="mt-3 text-xl font-semibold mb-6">Materials</h2>
-            {course.materials && course.materials.length > 0 ? (
+            {materials && materials.length > 0 ? (
                 <div className="space-y-4">
-                    {course.materials.map((material, index) => (
+                    {materials.map((material, index) => (
                         <div
                             key={material.id || index}
                             className="flex items-center justify-between bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition"

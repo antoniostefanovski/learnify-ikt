@@ -128,7 +128,12 @@ const mockData = {
     { "id": "e2", "userId": 2, "courseId": "2", "enrollmentDate": "2023-08-05", "completed": true, "progress": 100 },
     { "id": "e3", "userId": 3, "courseId": "1", "enrollmentDate": "2023-07-15", "completed": true, "progress": 100 },
     { "id": "e4", "userId": 3, "courseId": "3", "enrollmentDate": "2023-09-20", "completed": false, "progress": 60 }
-  ]
+  ],
+  "materials": [
+  { "name": "психологија 5.pdf", "id": "m1", "url": "/files/психологија 5.pdf" },
+  { "name": "психологија 6 час.pdf", "id": "m2", "url": "/files/психологија 6 час.pdf" },
+  { "name": "ПСИХОЛОГИЈА 7 8 9 (3).pdf", "id": "m3", "url": "/files/ПСИХОЛОГИЈА 7 8 9 (3).pdf" }
+],
 };
 
 console.log('Using hardcoded mock data');
@@ -156,7 +161,7 @@ export const getCourses = () => {
     return simulateDelay([]);
   }
 };
-
+export const getMaterials = () => {return mockData.materials};
 export const getCourseById = (id) => simulateDelay(mockData.courses[id] || null);
 
 export const createCourse = async (course) => {
